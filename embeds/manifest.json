@@ -1,8 +1,48 @@
 {
-  "exportedAt": "2026-02-23T07:34:32.457119+00:00",
+  "exportedAt": "2026-02-23T09:20:00.735019+00:00",
   "count": 29,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
+  "theme": {
+    "layout": {
+      "colorway": [
+        "#2563EB",
+        "#0EA5E9",
+        "#10B981",
+        "#F59E0B",
+        "#EF4444",
+        "#8B5CF6",
+        "#14B8A6",
+        "#F97316"
+      ],
+      "paper_bgcolor": "#ffffff",
+      "plot_bgcolor": "#ffffff",
+      "font": {
+        "family": "Arial, sans-serif",
+        "size": 13,
+        "color": "#111827"
+      }
+    },
+    "font": {
+      "family": "Arial, sans-serif",
+      "size": 13,
+      "color": "#111827"
+    },
+    "trace_colors": {
+      "enabled": true,
+      "force": false,
+      "palette": [
+        "#2563EB",
+        "#0EA5E9",
+        "#10B981",
+        "#F59E0B",
+        "#EF4444",
+        "#8B5CF6",
+        "#14B8A6",
+        "#F97316"
+      ]
+    }
+  },
   "removed": [],
   "items": [
     {
