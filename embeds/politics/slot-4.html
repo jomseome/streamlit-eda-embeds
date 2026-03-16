@@ -232,41 +232,11 @@
       return Math.max(size + hoverMarkerBoost + 4, size * 3);
     }
 
-    function buildPointHighlightTrace(traceIndex, pointIndex) {
-      const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
-      const kind = trace.type || "";
-      if (!(kind === "scatter" || kind === "scattergl")) {
-        return null;
-      }
-      const xs = Array.isArray(trace.x) ? trace.x : [];
-      const ys = Array.isArray(trace.y) ? trace.y : [];
-      if (pointIndex < 0 || pointIndex >= xs.length || pointIndex >= ys.length) {
-        return null;
-      }
-      const color = darkerColor(traceHighlightColor(traceIndex), 0.72);
-      const size = highlightedMarkerSize(baseMarkerSize(traceIndex)) + 4;
-      return {
-        type: "scatter",
-        mode: "markers",
-        x: [xs[pointIndex]],
-        y: [ys[pointIndex]],
-        hoverinfo: "skip",
-        showlegend: false,
-        marker: {
-          size: size,
-          color: color,
-          line: {
-            color: "#FFFFFF",
-            width: 2
-          }
-        }
-      };
-    }
-
     function buildHighlightUpdate(traceIndex, pointIndex) {
       const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
       const color = traceHighlightColor(traceIndex);
+      const darkColor = darkerColor(color, 0.6);
       const update = {};
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
         const count = pointCount(trace);
@@ -284,12 +254,20 @@
       if ((kind === "scatter" || kind === "scattergl") && (originalFigure.data || []).length === 1 && count > 0) {
         const markerColors = normalizedArray(count, neutralMarkerColor);
         if (pointIndex >= 0 && pointIndex < count) {
-          markerColors[pointIndex] = color;
+          markerColors[pointIndex] = darkColor;
         }
         update["marker.color"] = [markerColors];
       } else {
         update["line.color"] = [color];
-        update["marker.color"] = [color];
+        if (count > 0) {
+          const markerColors = normalizedArray(count, color);
+          if (pointIndex >= 0 && pointIndex < count) {
+            markerColors[pointIndex] = darkColor;
+          }
+          update["marker.color"] = [markerColors];
+        } else {
+          update["marker.color"] = [darkColor];
+        }
         if (typeof trace.fill === "string" && trace.fill !== "none") {
           update.fillcolor = [colorWithAlpha(color, 0.18)];
         }
@@ -317,12 +295,7 @@
       if (!point) return;
       restoreNeutralState();
       const update = buildHighlightUpdate(point.curveNumber, point.pointNumber);
-      Plotly.restyle(el, update, [point.curveNumber]).then(function() {
-        const highlightTrace = buildPointHighlightTrace(point.curveNumber, point.pointNumber);
-        if (highlightTrace) {
-          Plotly.addTraces(el, [highlightTrace]);
-        }
-      });
+      Plotly.restyle(el, update, [point.curveNumber]);
     });
 
     el.on("plotly_unhover", function() {
