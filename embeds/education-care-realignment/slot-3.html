@@ -99,7 +99,6 @@
       displayModeBar: false
     };
     const baseMarkerSizes = new Map();
-    let isInternalRender = false;
 
     function deepClone(value) {
       return JSON.parse(JSON.stringify(value));
@@ -284,20 +283,14 @@
       return neutral;
     }
 
-    function renderFigure(figure) {
-      isInternalRender = true;
+    function restoreBaseState() {
+      const base = buildBaseFigure();
       return Plotly.react(
         el,
-        figure.data || [],
-        Object.assign({}, figure.layout || {}, { autosize: true }),
+        base.data || [],
+        Object.assign({}, base.layout || {}, { autosize: true }),
         config
-      ).finally(function() {
-        isInternalRender = false;
-      });
-    }
-
-    function restoreBaseState() {
-      return renderFigure(buildBaseFigure());
+      );
     }
 
     function elementHasClass(node, className) {
@@ -360,15 +353,12 @@
       return Math.max(size + hoverMarkerBoost + 10, size * 5);
     }
 
-    function applyHighlightToTrace(figure, traceIndex, pointIndex, emphasizePoint) {
-      const trace = (figure.data || [])[traceIndex];
-      if (!trace) {
-        return;
-      }
+    function buildHighlightUpdate(traceIndex, pointIndex, emphasizePoint) {
       const sourceTrace = deepClone((interactiveFigure.data || [])[traceIndex] || {});
-      const kind = trace.type || "";
+      const kind = sourceTrace.type || "";
       const color = traceHighlightColor(traceIndex);
       const darkColor = darkerColor(color, 0.6);
+      const update = {};
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
         const count = pointCount(sourceTrace, traceIndex);
         const fillColors = normalizedArray(count, neutralBarFill);
@@ -377,23 +367,19 @@
           fillColors[pointIndex] = color;
           lineColors[pointIndex] = color;
         }
-        trace.marker = Object.assign({}, trace.marker || {}, {
-          color: fillColors,
-          line: Object.assign({}, (trace.marker || {}).line || {}, {
-            color: lineColors
-          })
-        });
-        return;
+        update["marker.color"] = [fillColors];
+        update["marker.line.color"] = [lineColors];
+        return update;
       }
       const count = pointCount(sourceTrace, traceIndex);
       if (sourceTrace._interactiveRole === "line") {
-        trace.line = Object.assign({}, trace.line || {}, { color: color });
-        return;
+        update["line.color"] = [color];
+        return update;
       }
 
       if (sourceTrace._interactiveRole === "hitbox") {
-        trace.line = Object.assign({}, trace.line || {}, { color: "rgba(0,0,0,0)" });
-        return;
+        update["line.color"] = ["rgba(0,0,0,0)"];
+        return update;
       }
 
       if (sourceTrace._interactiveRole === "marker") {
@@ -408,15 +394,11 @@
           markerLineColors[pointIndex] = "#FFFFFF";
           markerLineWidths[pointIndex] = 4;
         }
-        trace.marker = Object.assign({}, trace.marker || {}, {
-          color: markerColors,
-          line: Object.assign({}, (trace.marker || {}).line || {}, {
-            color: markerLineColors,
-            width: markerLineWidths
-          })
-        });
+        update["marker.color"] = [markerColors];
+        update["marker.line.color"] = [markerLineColors];
+        update["marker.line.width"] = [markerLineWidths];
       } else {
-        trace.line = Object.assign({}, trace.line || {}, { color: color });
+        update["line.color"] = [color];
         if (count > 0) {
           const markerColors = normalizedArray(count, neutralMarkerColor);
           const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
@@ -426,18 +408,14 @@
             markerLineColors[pointIndex] = "#FFFFFF";
             markerLineWidths[pointIndex] = 4;
           }
-          trace.marker = Object.assign({}, trace.marker || {}, {
-            color: markerColors,
-            line: Object.assign({}, (trace.marker || {}).line || {}, {
-              color: markerLineColors,
-              width: markerLineWidths
-            })
-          });
+          update["marker.color"] = [markerColors];
+          update["marker.line.color"] = [markerLineColors];
+          update["marker.line.width"] = [markerLineWidths];
         } else {
-          trace.marker = Object.assign({}, trace.marker || {}, { color: darkColor });
+          update["marker.color"] = [darkColor];
         }
         if (typeof sourceTrace.fill === "string" && sourceTrace.fill !== "none") {
-          trace.fillcolor = colorWithAlpha(color, 0.18);
+          update.fillcolor = [colorWithAlpha(color, 0.18)];
         }
       }
       if (count > 0) {
@@ -446,8 +424,9 @@
         if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
           sizes[pointIndex] = highlightedMarkerSize(size);
         }
-        trace.marker = Object.assign({}, trace.marker || {}, { size: sizes });
+        update["marker.size"] = [sizes];
       }
+      return update;
     }
 
     function pairedLineTraceIndex(traceIndex) {
@@ -481,25 +460,26 @@
     el.on("plotly_hover", function(event) {
       const point = event && event.points && event.points[0];
       if (!point) return;
-      const figure = buildBaseFigure();
-      const targetTraceIndex = point.curveNumber;
-      const pointHover = isPointHover(event, targetTraceIndex);
-      const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
-      const shouldColorizeLine = lineHoverMode === "line_and_point";
-      if (shouldColorizeLine && lineTraceIndex >= 0) {
-        applyHighlightToTrace(figure, lineTraceIndex, point.pointNumber, false);
-      }
-      if (pointHover) {
-        const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
-        if (markerTraceIndex >= 0) {
-          applyHighlightToTrace(figure, markerTraceIndex, point.pointNumber, true);
+      restoreBaseState().then(function() {
+        const targetTraceIndex = point.curveNumber;
+        const pointHover = isPointHover(event, targetTraceIndex);
+        const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
+        const shouldColorizeLine = lineHoverMode === "line_and_point";
+        if (shouldColorizeLine && lineTraceIndex >= 0) {
+          const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
+          Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
         }
-      }
-      renderFigure(figure);
+        if (pointHover) {
+          const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
+          if (markerTraceIndex >= 0) {
+            const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
+            Plotly.restyle(el, pointUpdate, [markerTraceIndex]);
+          }
+        }
+      });
     });
 
     el.on("plotly_unhover", function() {
-      if (isInternalRender) return;
       restoreBaseState();
     });
 
