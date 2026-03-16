@@ -339,7 +339,10 @@
       }
 
       if (trace._interactiveRole === "marker") {
-        const markerColors = normalizedArray(count, neutralMarkerColor);
+        const markerColors = normalizedArray(
+          count,
+          emphasizePoint ? colorWithAlpha(color, 0.35) : neutralMarkerColor
+        );
         const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
         const markerLineWidths = normalizedArray(count, 0);
         if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
