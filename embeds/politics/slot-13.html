@@ -229,7 +229,7 @@
     }
 
     function highlightedMarkerSize(size) {
-      return Math.max(size + hoverMarkerBoost + 4, size * 3);
+      return Math.max(size + hoverMarkerBoost + 10, size * 5);
     }
 
     function buildHighlightUpdate(traceIndex, pointIndex) {
@@ -252,19 +252,32 @@
       }
       const count = pointCount(trace);
       if ((kind === "scatter" || kind === "scattergl") && (originalFigure.data || []).length === 1 && count > 0) {
+        update["line.color"] = [color];
         const markerColors = normalizedArray(count, neutralMarkerColor);
+        const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
+        const markerLineWidths = normalizedArray(count, 0);
         if (pointIndex >= 0 && pointIndex < count) {
           markerColors[pointIndex] = darkColor;
+          markerLineColors[pointIndex] = "#FFFFFF";
+          markerLineWidths[pointIndex] = 4;
         }
         update["marker.color"] = [markerColors];
+        update["marker.line.color"] = [markerLineColors];
+        update["marker.line.width"] = [markerLineWidths];
       } else {
         update["line.color"] = [color];
         if (count > 0) {
           const markerColors = normalizedArray(count, color);
+          const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
+          const markerLineWidths = normalizedArray(count, 0);
           if (pointIndex >= 0 && pointIndex < count) {
             markerColors[pointIndex] = darkColor;
+            markerLineColors[pointIndex] = "#FFFFFF";
+            markerLineWidths[pointIndex] = 4;
           }
           update["marker.color"] = [markerColors];
+          update["marker.line.color"] = [markerLineColors];
+          update["marker.line.width"] = [markerLineWidths];
         } else {
           update["marker.color"] = [darkColor];
         }
