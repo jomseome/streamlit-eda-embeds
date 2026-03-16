@@ -187,6 +187,9 @@
       if (count) return count;
       count = rawArrayLength(renderedTrace.labels);
       if (count) return count;
+      const calcTrace = (el.calcdata || [])[traceIndex] || [];
+      count = rawArrayLength(calcTrace);
+      if (count) return count;
       return 0;
     }
 
