@@ -105,7 +105,7 @@
     }
 
     function traceHighlightColor(traceIndex) {
-      const trace = (originalFigure.data || [])[traceIndex] || {};
+      const trace = (interactiveFigure.data || [])[traceIndex] || {};
       if (trace.line && typeof trace.line.color === "string") {
         return trace.line.color;
       }
@@ -169,6 +169,43 @@
       return 0;
     }
 
+    function isSplitTimeSeriesTrace(trace) {
+      const kind = trace.type || "";
+      const mode = String(trace.mode || "");
+      return (kind === "scatter" || kind === "scattergl") && mode.includes("lines") && mode.includes("markers");
+    }
+
+    function buildInteractiveFigure() {
+      const figure = deepClone(originalFigure);
+      const traces = [];
+      (figure.data || []).forEach(function(trace, originalIndex) {
+        if (!isSplitTimeSeriesTrace(trace)) {
+          trace._interactiveOriginalIndex = originalIndex;
+          trace._interactiveRole = "single";
+          traces.push(trace);
+          return;
+        }
+
+        const lineTrace = deepClone(trace);
+        lineTrace.mode = "lines";
+        lineTrace.hovertemplate = "<extra></extra>";
+        lineTrace.hoverinfo = "none";
+        lineTrace.showlegend = trace.showlegend;
+        lineTrace._interactiveOriginalIndex = originalIndex;
+        lineTrace._interactiveRole = "line";
+        traces.push(lineTrace);
+
+        const markerTrace = deepClone(trace);
+        markerTrace.mode = "markers";
+        markerTrace.showlegend = false;
+        markerTrace._interactiveOriginalIndex = originalIndex;
+        markerTrace._interactiveRole = "marker";
+        traces.push(markerTrace);
+      });
+      figure.data = traces;
+      return figure;
+    }
+
     function neutralizeTrace(trace) {
       const t = deepClone(trace);
       const kind = t.type || "";
@@ -183,8 +220,12 @@
         return t;
       }
       if (kind === "scatter" || kind === "scattergl" || kind === "box" || kind === "violin") {
-        t.line = Object.assign({}, t.line || {}, { color: neutralLineColor });
-        t.marker = Object.assign({}, t.marker || {}, { color: neutralMarkerColor });
+        if (t._interactiveRole !== "marker") {
+          t.line = Object.assign({}, t.line || {}, { color: neutralLineColor });
+        }
+        if (t._interactiveRole !== "line") {
+          t.marker = Object.assign({}, t.marker || {}, { color: neutralMarkerColor });
+        }
         if (typeof t.fill === "string" && t.fill !== "none") {
           t.fillcolor = neutralFillColor;
         }
@@ -194,11 +235,13 @@
       return t;
     }
 
+    const interactiveFigure = buildInteractiveFigure();
+
     function buildBaseFigure() {
       if (!grayscaleEnabled) {
-        return deepClone(originalFigure);
+        return deepClone(interactiveFigure);
       }
-      const neutral = deepClone(originalFigure);
+      const neutral = deepClone(interactiveFigure);
       neutral.data = (neutral.data || []).map(neutralizeTrace);
       return neutral;
     }
@@ -220,7 +263,7 @@
       if (baseMarkerSizes.has(traceIndex)) {
         return baseMarkerSizes.get(traceIndex);
       }
-      const trace = (originalFigure.data || [])[traceIndex] || {};
+      const trace = (interactiveFigure.data || [])[traceIndex] || {};
       const marker = trace.marker || {};
       let size = marker.size;
       if (Array.isArray(size)) {
@@ -238,7 +281,7 @@
     }
 
     function buildHighlightUpdate(traceIndex, pointIndex, emphasizePoint) {
-      const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
+      const trace = deepClone((interactiveFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
       const color = traceHighlightColor(traceIndex);
       const darkColor = darkerColor(color, 0.6);
@@ -256,8 +299,12 @@
         return update;
       }
       const count = pointCount(trace);
-      if ((kind === "scatter" || kind === "scattergl") && (originalFigure.data || []).length === 1 && count > 0) {
+      if (trace._interactiveRole === "line") {
         update["line.color"] = [color];
+        return update;
+      }
+
+      if (trace._interactiveRole === "marker") {
         const markerColors = normalizedArray(count, neutralMarkerColor);
         const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
         const markerLineWidths = normalizedArray(count, 0);
@@ -301,6 +348,17 @@
       return update;
     }
 
+    function pairedLineTraceIndex(traceIndex) {
+      const trace = (interactiveFigure.data || [])[traceIndex] || {};
+      if (trace._interactiveRole !== "marker") {
+        return traceIndex;
+      }
+      const originalIndex = trace._interactiveOriginalIndex;
+      return (interactiveFigure.data || []).findIndex(function(candidate) {
+        return candidate._interactiveOriginalIndex === originalIndex && candidate._interactiveRole === "line";
+      });
+    }
+
     Plotly.newPlot(el, buildBaseFigure().data || [], layout, config).then(function() {
       if (Array.isArray(originalFigure.frames) && originalFigure.frames.length > 0) {
         Plotly.addFrames(el, originalFigure.frames);
@@ -312,8 +370,17 @@
       if (!point) return;
       const pointHover = isPointHover(event);
       restoreBaseState();
-      const update = buildHighlightUpdate(point.curveNumber, point.pointNumber, pointHover);
-      Plotly.restyle(el, update, [point.curveNumber]);
+      const targetTraceIndex = point.curveNumber;
+      const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
+      const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
+      Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
+      if (pointHover && lineTraceIndex !== targetTraceIndex) {
+        const pointUpdate = buildHighlightUpdate(targetTraceIndex, point.pointNumber, true);
+        Plotly.restyle(el, pointUpdate, [targetTraceIndex]);
+      } else if (pointHover) {
+        const pointUpdate = buildHighlightUpdate(targetTraceIndex, point.pointNumber, true);
+        Plotly.restyle(el, pointUpdate, [targetTraceIndex]);
+      }
     });
 
     el.on("plotly_unhover", function() {
