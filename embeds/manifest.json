@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-03-16T01:41:44.003294+00:00",
+  "exportedAt": "2026-03-16T04:11:10.965097+00:00",
   "count": 29,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -49,7 +49,8 @@
       "neutral_fill_color": "rgba(160, 160, 168, 0.18)",
       "neutral_bar_fill": "rgba(156, 163, 175, 0.75)",
       "neutral_bar_line": "#6B7280",
-      "hover_marker_size_boost": 3
+      "hover_marker_size_boost": 3,
+      "line_hover_mode": "line_and_point"
     },
     "units": {
       "label": "단위"
