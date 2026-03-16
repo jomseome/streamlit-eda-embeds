@@ -99,6 +99,7 @@
       displayModeBar: false
     };
     const baseMarkerSizes = new Map();
+    let isInternalRender = false;
 
     function deepClone(value) {
       return JSON.parse(JSON.stringify(value));
@@ -268,12 +269,15 @@
     }
 
     function renderFigure(figure) {
+      isInternalRender = true;
       return Plotly.react(
         el,
         figure.data || [],
         Object.assign({}, figure.layout || {}, { autosize: true }),
         config
-      );
+      ).finally(function() {
+        isInternalRender = false;
+      });
     }
 
     function restoreBaseState() {
@@ -443,6 +447,9 @@
 
     function pairedMarkerTraceIndex(traceIndex) {
       const trace = (interactiveFigure.data || [])[traceIndex] || {};
+      if (trace._interactiveRole === "single") {
+        return traceIndex;
+      }
       const originalIndex = trace._interactiveOriginalIndex;
       return (interactiveFigure.data || []).findIndex(function(candidate) {
         return candidate._interactiveOriginalIndex === originalIndex && candidate._interactiveRole === "marker";
@@ -476,6 +483,7 @@
     });
 
     el.on("plotly_unhover", function() {
+      if (isInternalRender) return;
       restoreBaseState();
     });
 
