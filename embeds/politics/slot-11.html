@@ -194,7 +194,7 @@
       return t;
     }
 
-    function buildNeutralFigure() {
+    function buildBaseFigure() {
       if (!grayscaleEnabled) {
         return deepClone(originalFigure);
       }
@@ -203,12 +203,17 @@
       return neutral;
     }
 
-    function restoreNeutralState() {
-      if (!grayscaleEnabled) {
-        return;
+    function restoreBaseState() {
+      const base = buildBaseFigure();
+      Plotly.react(el, base.data || [], Object.assign({}, base.layout || {}, { autosize: true }), config);
+    }
+
+    function isPointHover(plotlyEvent) {
+      const target = plotlyEvent && plotlyEvent.event && plotlyEvent.event.target;
+      if (!target || typeof target.closest !== "function") {
+        return false;
       }
-      const neutral = buildNeutralFigure();
-      Plotly.react(el, neutral.data || [], Object.assign({}, neutral.layout || {}, { autosize: true }), config);
+      return Boolean(target.closest(".point") || target.closest(".points"));
     }
 
     function baseMarkerSize(traceIndex) {
@@ -232,7 +237,7 @@
       return Math.max(size + hoverMarkerBoost + 10, size * 5);
     }
 
-    function buildHighlightUpdate(traceIndex, pointIndex) {
+    function buildHighlightUpdate(traceIndex, pointIndex, emphasizePoint) {
       const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
       const color = traceHighlightColor(traceIndex);
@@ -256,7 +261,7 @@
         const markerColors = normalizedArray(count, neutralMarkerColor);
         const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
         const markerLineWidths = normalizedArray(count, 0);
-        if (pointIndex >= 0 && pointIndex < count) {
+        if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
           markerColors[pointIndex] = darkColor;
           markerLineColors[pointIndex] = "#FFFFFF";
           markerLineWidths[pointIndex] = 4;
@@ -267,10 +272,10 @@
       } else {
         update["line.color"] = [color];
         if (count > 0) {
-          const markerColors = normalizedArray(count, color);
+          const markerColors = normalizedArray(count, neutralMarkerColor);
           const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
           const markerLineWidths = normalizedArray(count, 0);
-          if (pointIndex >= 0 && pointIndex < count) {
+          if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
             markerColors[pointIndex] = darkColor;
             markerLineColors[pointIndex] = "#FFFFFF";
             markerLineWidths[pointIndex] = 4;
@@ -288,7 +293,7 @@
       if (count > 0) {
         const size = baseMarkerSize(traceIndex);
         const sizes = normalizedArray(count, size);
-        if (pointIndex >= 0 && pointIndex < count) {
+        if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
           sizes[pointIndex] = highlightedMarkerSize(size);
         }
         update["marker.size"] = [sizes];
@@ -296,24 +301,23 @@
       return update;
     }
 
-    Plotly.newPlot(el, buildNeutralFigure().data || [], layout, config).then(function() {
+    Plotly.newPlot(el, buildBaseFigure().data || [], layout, config).then(function() {
       if (Array.isArray(originalFigure.frames) && originalFigure.frames.length > 0) {
         Plotly.addFrames(el, originalFigure.frames);
       }
     });
 
     el.on("plotly_hover", function(event) {
-      if (!grayscaleEnabled) return;
       const point = event && event.points && event.points[0];
       if (!point) return;
-      restoreNeutralState();
-      const update = buildHighlightUpdate(point.curveNumber, point.pointNumber);
+      const pointHover = isPointHover(event);
+      restoreBaseState();
+      const update = buildHighlightUpdate(point.curveNumber, point.pointNumber, pointHover);
       Plotly.restyle(el, update, [point.curveNumber]);
     });
 
     el.on("plotly_unhover", function() {
-      if (!grayscaleEnabled) return;
-      restoreNeutralState();
+      restoreBaseState();
     });
 
     downloadChartButton.addEventListener("click", function() {
