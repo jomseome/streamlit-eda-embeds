@@ -378,7 +378,7 @@
       const sourceTrace = deepClone((interactiveFigure.data || [])[traceIndex] || {});
       const kind = sourceTrace.type || "";
       const color = traceHighlightColor(traceIndex);
-      const darkColor = darkerColor(color, 0.82);
+      const darkColor = darkerColor(color, 0.68);
       const update = {};
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
         const count = pointCount(sourceTrace, traceIndex);
