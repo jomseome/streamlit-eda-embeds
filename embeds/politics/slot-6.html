@@ -279,13 +279,32 @@
       return false;
     }
 
+    function cursorElements(event) {
+      const source = event && event.event;
+      const clientX = source && typeof source.clientX === "number" ? source.clientX : null;
+      const clientY = source && typeof source.clientY === "number" ? source.clientY : null;
+      if (clientX === null || clientY === null || typeof document === "undefined") {
+        return [];
+      }
+      if (typeof document.elementsFromPoint === "function") {
+        return document.elementsFromPoint(clientX, clientY) || [];
+      }
+      if (typeof document.elementFromPoint === "function") {
+        const node = document.elementFromPoint(clientX, clientY);
+        return node ? [node] : [];
+      }
+      return [];
+    }
+
     function isPointHover(event, traceIndex) {
       const trace = (interactiveFigure.data || [])[traceIndex] || {};
       if (trace._interactiveRole === "marker" || trace._interactiveRole === "single") {
         return true;
       }
-      const target = event && event.event && event.event.target;
-      return elementHasClass(target, "point");
+      const hoveredElements = cursorElements(event);
+      return hoveredElements.some(function(node) {
+        return elementHasClass(node, "point");
+      });
     }
 
     function baseMarkerSize(traceIndex) {
