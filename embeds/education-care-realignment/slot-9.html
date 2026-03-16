@@ -212,6 +212,37 @@
       return Math.max(size + hoverMarkerBoost, size * 2);
     }
 
+    function buildPointHighlightTrace(traceIndex, pointIndex) {
+      const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
+      const kind = trace.type || "";
+      if (!(kind === "scatter" || kind === "scattergl")) {
+        return null;
+      }
+      const xs = Array.isArray(trace.x) ? trace.x : [];
+      const ys = Array.isArray(trace.y) ? trace.y : [];
+      if (pointIndex < 0 || pointIndex >= xs.length || pointIndex >= ys.length) {
+        return null;
+      }
+      const color = traceHighlightColor(traceIndex);
+      const size = highlightedMarkerSize(baseMarkerSize(traceIndex)) + 4;
+      return {
+        type: "scatter",
+        mode: "markers",
+        x: [xs[pointIndex]],
+        y: [ys[pointIndex]],
+        hoverinfo: "skip",
+        showlegend: false,
+        marker: {
+          size: size,
+          color: color,
+          line: {
+            color: "#FFFFFF",
+            width: 2
+          }
+        }
+      };
+    }
+
     function buildHighlightUpdate(traceIndex, pointIndex) {
       const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
@@ -266,7 +297,12 @@
       if (!point) return;
       restoreNeutralState();
       const update = buildHighlightUpdate(point.curveNumber, point.pointNumber);
-      Plotly.restyle(el, update, [point.curveNumber]);
+      Plotly.restyle(el, update, [point.curveNumber]).then(function() {
+        const highlightTrace = buildPointHighlightTrace(point.curveNumber, point.pointNumber);
+        if (highlightTrace) {
+          Plotly.addTraces(el, [highlightTrace]);
+        }
+      });
     });
 
     el.on("plotly_unhover", function() {
