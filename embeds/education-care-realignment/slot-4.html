@@ -104,6 +104,17 @@
       return colorPalette.length ? colorPalette[index % colorPalette.length] : "#2563EB";
     }
 
+    function traceHighlightColor(traceIndex) {
+      const trace = (originalFigure.data || [])[traceIndex] || {};
+      if (trace.line && typeof trace.line.color === "string") {
+        return trace.line.color;
+      }
+      if (trace.marker && typeof trace.marker.color === "string") {
+        return trace.marker.color;
+      }
+      return paletteColor(traceIndex);
+    }
+
     function normalizedArray(length, value) {
       return Array.from({ length }, function() { return value; });
     }
@@ -200,7 +211,7 @@
     function buildHighlightUpdate(traceIndex, pointIndex) {
       const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
-      const color = paletteColor(traceIndex);
+      const color = traceHighlightColor(traceIndex);
       const update = {};
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
         const count = pointCount(trace);
@@ -214,12 +225,20 @@
         update["marker.line.color"] = [lineColors];
         return update;
       }
-      update["line.color"] = [color];
-      update["marker.color"] = [color];
-      if (typeof trace.fill === "string" && trace.fill !== "none") {
-        update.fillcolor = [colorWithAlpha(color, 0.18)];
-      }
       const count = pointCount(trace);
+      if ((kind === "scatter" || kind === "scattergl") && (originalFigure.data || []).length === 1 && count > 0) {
+        const markerColors = normalizedArray(count, neutralMarkerColor);
+        if (pointIndex >= 0 && pointIndex < count) {
+          markerColors[pointIndex] = color;
+        }
+        update["marker.color"] = [markerColors];
+      } else {
+        update["line.color"] = [color];
+        update["marker.color"] = [color];
+        if (typeof trace.fill === "string" && trace.fill !== "none") {
+          update.fillcolor = [colorWithAlpha(color, 0.18)];
+        }
+      }
       if (count > 0) {
         const size = baseMarkerSize(traceIndex);
         const sizes = normalizedArray(count, size);
