@@ -213,7 +213,7 @@
       if (!target || typeof target.closest !== "function") {
         return false;
       }
-      return Boolean(target.closest(".point") || target.closest(".points"));
+      return Boolean(target.closest(".point"));
     }
 
     function baseMarkerSize(traceIndex) {
