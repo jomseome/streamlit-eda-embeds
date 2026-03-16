@@ -201,6 +201,19 @@
         markerTrace._interactiveOriginalIndex = originalIndex;
         markerTrace._interactiveRole = "marker";
         traces.push(markerTrace);
+
+        const hitboxTrace = deepClone(trace);
+        hitboxTrace.mode = "lines";
+        hitboxTrace.showlegend = false;
+        hitboxTrace.hovertemplate = "<extra></extra>";
+        hitboxTrace.hoverinfo = "none";
+        hitboxTrace.line = Object.assign({}, hitboxTrace.line || {}, {
+          color: "rgba(0,0,0,0)",
+          width: Math.max(Number((hitboxTrace.line || {}).width || 2) * 6, 16),
+        });
+        hitboxTrace._interactiveOriginalIndex = originalIndex;
+        hitboxTrace._interactiveRole = "hitbox";
+        traces.push(hitboxTrace);
       });
       figure.data = traces;
       return figure;
@@ -220,6 +233,10 @@
         return t;
       }
       if (kind === "scatter" || kind === "scattergl" || kind === "box" || kind === "violin") {
+        if (t._interactiveRole === "hitbox") {
+          t.line = Object.assign({}, t.line || {}, { color: "rgba(0,0,0,0)" });
+          return t;
+        }
         if (t._interactiveRole !== "marker") {
           t.line = Object.assign({}, t.line || {}, { color: neutralLineColor });
         }
@@ -304,6 +321,11 @@
         return update;
       }
 
+      if (trace._interactiveRole === "hitbox") {
+        update["line.color"] = ["rgba(0,0,0,0)"];
+        return update;
+      }
+
       if (trace._interactiveRole === "marker") {
         const markerColors = normalizedArray(count, neutralMarkerColor);
         const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
@@ -350,12 +372,20 @@
 
     function pairedLineTraceIndex(traceIndex) {
       const trace = (interactiveFigure.data || [])[traceIndex] || {};
-      if (trace._interactiveRole !== "marker") {
+      if (trace._interactiveRole !== "marker" && trace._interactiveRole !== "hitbox") {
         return traceIndex;
       }
       const originalIndex = trace._interactiveOriginalIndex;
       return (interactiveFigure.data || []).findIndex(function(candidate) {
         return candidate._interactiveOriginalIndex === originalIndex && candidate._interactiveRole === "line";
+      });
+    }
+
+    function pairedMarkerTraceIndex(traceIndex) {
+      const trace = (interactiveFigure.data || [])[traceIndex] || {};
+      const originalIndex = trace._interactiveOriginalIndex;
+      return (interactiveFigure.data || []).findIndex(function(candidate) {
+        return candidate._interactiveOriginalIndex === originalIndex && candidate._interactiveRole === "marker";
       });
     }
 
@@ -374,12 +404,12 @@
       const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
       const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
       Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
-      if (pointHover && lineTraceIndex !== targetTraceIndex) {
-        const pointUpdate = buildHighlightUpdate(targetTraceIndex, point.pointNumber, true);
-        Plotly.restyle(el, pointUpdate, [targetTraceIndex]);
-      } else if (pointHover) {
-        const pointUpdate = buildHighlightUpdate(targetTraceIndex, point.pointNumber, true);
-        Plotly.restyle(el, pointUpdate, [targetTraceIndex]);
+      if (pointHover) {
+        const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
+        if (markerTraceIndex >= 0) {
+          const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
+          Plotly.restyle(el, pointUpdate, [markerTraceIndex]);
+        }
       }
     });
 
