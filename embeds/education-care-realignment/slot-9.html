@@ -195,25 +195,25 @@
         lineTrace._interactiveRole = "line";
         traces.push(lineTrace);
 
-        const markerTrace = deepClone(trace);
-        markerTrace.mode = "markers";
-        markerTrace.showlegend = false;
-        markerTrace._interactiveOriginalIndex = originalIndex;
-        markerTrace._interactiveRole = "marker";
-        traces.push(markerTrace);
-
         const hitboxTrace = deepClone(trace);
         hitboxTrace.mode = "lines";
         hitboxTrace.showlegend = false;
         hitboxTrace.hovertemplate = "<extra></extra>";
         hitboxTrace.hoverinfo = "none";
         hitboxTrace.line = Object.assign({}, hitboxTrace.line || {}, {
-          color: "rgba(0,0,0,0)",
-          width: Math.max(Number((hitboxTrace.line || {}).width || 2) * 6, 16),
+          color: "rgba(0,0,0,0.001)",
+          width: Math.max(Number((hitboxTrace.line || {}).width || 2) * 6, 18),
         });
         hitboxTrace._interactiveOriginalIndex = originalIndex;
         hitboxTrace._interactiveRole = "hitbox";
         traces.push(hitboxTrace);
+
+        const markerTrace = deepClone(trace);
+        markerTrace.mode = "markers";
+        markerTrace.showlegend = false;
+        markerTrace._interactiveOriginalIndex = originalIndex;
+        markerTrace._interactiveRole = "marker";
+        traces.push(markerTrace);
       });
       figure.data = traces;
       return figure;
@@ -268,12 +268,24 @@
       Plotly.react(el, base.data || [], Object.assign({}, base.layout || {}, { autosize: true }), config);
     }
 
-    function isPointHover(plotlyEvent) {
-      const target = plotlyEvent && plotlyEvent.event && plotlyEvent.event.target;
-      if (!target || typeof target.closest !== "function") {
-        return false;
+    function elementHasClass(node, className) {
+      let current = node;
+      while (current) {
+        if (current.classList && current.classList.contains(className)) {
+          return true;
+        }
+        current = current.parentNode;
       }
-      return Boolean(target.closest(".point"));
+      return false;
+    }
+
+    function isPointHover(event, traceIndex) {
+      const trace = (interactiveFigure.data || [])[traceIndex] || {};
+      if (trace._interactiveRole === "marker" || trace._interactiveRole === "single") {
+        return true;
+      }
+      const target = event && event.event && event.event.target;
+      return elementHasClass(target, "point");
     }
 
     function baseMarkerSize(traceIndex) {
@@ -398,9 +410,9 @@
     el.on("plotly_hover", function(event) {
       const point = event && event.points && event.points[0];
       if (!point) return;
-      const pointHover = isPointHover(event);
       restoreBaseState();
       const targetTraceIndex = point.curveNumber;
+      const pointHover = isPointHover(event, targetTraceIndex);
       const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
       const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
       Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
