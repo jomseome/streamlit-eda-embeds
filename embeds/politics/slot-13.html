@@ -95,6 +95,7 @@
       displayModeBar: false
     };
     const baseMarkerSizes = new Map();
+    const baseMarkerLineWidths = new Map();
 
     function deepClone(value) {
       return JSON.parse(JSON.stringify(value));
@@ -208,6 +209,24 @@
       return size;
     }
 
+    function baseMarkerLineWidth(traceIndex) {
+      if (baseMarkerLineWidths.has(traceIndex)) {
+        return baseMarkerLineWidths.get(traceIndex);
+      }
+      const trace = (originalFigure.data || [])[traceIndex] || {};
+      const marker = trace.marker || {};
+      const markerLine = marker.line || {};
+      let width = markerLine.width;
+      if (Array.isArray(width)) {
+        width = Number(width[0]);
+      }
+      if (!Number.isFinite(width)) {
+        width = 0;
+      }
+      baseMarkerLineWidths.set(traceIndex, width);
+      return width;
+    }
+
     function buildHighlightUpdate(traceIndex, pointIndex) {
       const trace = deepClone((originalFigure.data || [])[traceIndex] || {});
       const kind = trace.type || "";
@@ -242,10 +261,17 @@
       if (count > 0) {
         const size = baseMarkerSize(traceIndex);
         const sizes = normalizedArray(count, size);
+        const markerLineWidth = baseMarkerLineWidth(traceIndex);
+        const markerLineWidths = normalizedArray(count, markerLineWidth);
+        const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
         if (pointIndex >= 0 && pointIndex < count) {
           sizes[pointIndex] = size + hoverMarkerBoost;
+          markerLineWidths[pointIndex] = Math.max(markerLineWidth, 2);
+          markerLineColors[pointIndex] = color;
         }
         update["marker.size"] = [sizes];
+        update["marker.line.width"] = [markerLineWidths];
+        update["marker.line.color"] = [markerLineColors];
       }
       return update;
     }
