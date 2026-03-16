@@ -167,10 +167,26 @@
       return color;
     }
 
-    function pointCount(trace) {
-      if (Array.isArray(trace.x)) return trace.x.length;
-      if (Array.isArray(trace.y)) return trace.y.length;
-      if (Array.isArray(trace.labels)) return trace.labels.length;
+    function rawArrayLength(value) {
+      if (Array.isArray(value)) return value.length;
+      if (value && typeof value.length === "number") return value.length;
+      return 0;
+    }
+
+    function pointCount(trace, traceIndex) {
+      let count = rawArrayLength(trace && trace.x);
+      if (count) return count;
+      count = rawArrayLength(trace && trace.y);
+      if (count) return count;
+      count = rawArrayLength(trace && trace.labels);
+      if (count) return count;
+      const renderedTrace = (el.data || [])[traceIndex] || {};
+      count = rawArrayLength(renderedTrace.x);
+      if (count) return count;
+      count = rawArrayLength(renderedTrace.y);
+      if (count) return count;
+      count = rawArrayLength(renderedTrace.labels);
+      if (count) return count;
       return 0;
     }
 
@@ -227,7 +243,7 @@
     function neutralizeTrace(trace) {
       const t = deepClone(trace);
       const kind = t.type || "";
-      const count = pointCount(t);
+      const count = pointCount(t, -1);
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
         t.marker = Object.assign({}, t.marker || {}, {
           color: count ? normalizedArray(count, neutralBarFill) : neutralBarFill,
@@ -354,7 +370,7 @@
       const color = traceHighlightColor(traceIndex);
       const darkColor = darkerColor(color, 0.6);
       if (kind === "bar" || kind === "histogram" || kind === "funnel") {
-        const count = pointCount(sourceTrace);
+        const count = pointCount(sourceTrace, traceIndex);
         const fillColors = normalizedArray(count, neutralBarFill);
         const lineColors = normalizedArray(count, neutralBarLine);
         if (pointIndex >= 0 && pointIndex < count) {
@@ -369,7 +385,7 @@
         });
         return;
       }
-      const count = pointCount(sourceTrace);
+      const count = pointCount(sourceTrace, traceIndex);
       if (sourceTrace._interactiveRole === "line") {
         trace.line = Object.assign({}, trace.line || {}, { color: color });
         return;
