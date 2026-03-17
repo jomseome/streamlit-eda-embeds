@@ -349,7 +349,7 @@
     const interactiveFigure = buildInteractiveFigure();
 
     function buildBaseFigure() {
-      if (!grayscaleEnabled) {
+      if (!grayscaleEnabled && !coloredIdle) {
         return deepClone(interactiveFigure);
       }
       const neutral = deepClone(interactiveFigure);

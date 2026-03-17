@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-03-17T08:49:57.992096+00:00",
+  "exportedAt": "2026-03-17T08:50:56.189079+00:00",
   "count": 29,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -72,7 +72,7 @@
         "y축 천명"
       ],
       "path": "education-care-realignment/slot-1.html",
-      "publicUrl": "education-care-realignment/slot-1.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-1.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -87,7 +87,7 @@
         "y축 명"
       ],
       "path": "education-care-realignment/slot-2.html",
-      "publicUrl": "education-care-realignment/slot-2.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-2.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -102,7 +102,7 @@
         "y축 명"
       ],
       "path": "education-care-realignment/slot-3.html",
-      "publicUrl": "education-care-realignment/slot-3.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-3.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -117,7 +117,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-4.html",
-      "publicUrl": "education-care-realignment/slot-4.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-4.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -132,7 +132,7 @@
         "y축 점"
       ],
       "path": "education-care-realignment/slot-5.html",
-      "publicUrl": "education-care-realignment/slot-5.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-5.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -147,7 +147,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-6.html",
-      "publicUrl": "education-care-realignment/slot-6.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-6.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -162,7 +162,7 @@
         "y축 만원"
       ],
       "path": "education-care-realignment/slot-7.html",
-      "publicUrl": "education-care-realignment/slot-7.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-7.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -177,7 +177,7 @@
         "x축 비율"
       ],
       "path": "education-care-realignment/slot-8.html",
-      "publicUrl": "education-care-realignment/slot-8.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-8.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -192,7 +192,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-9.html",
-      "publicUrl": "education-care-realignment/slot-9.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-9.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -207,7 +207,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-10.html",
-      "publicUrl": "education-care-realignment/slot-10.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-10.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -220,7 +220,7 @@
       "heightPx": 520,
       "units": [],
       "path": "education-care-realignment/slot-11.html",
-      "publicUrl": "education-care-realignment/slot-11.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-11.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -235,7 +235,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-12.html",
-      "publicUrl": "education-care-realignment/slot-12.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-12.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -250,7 +250,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-13.html",
-      "publicUrl": "education-care-realignment/slot-13.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-13.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -265,7 +265,7 @@
         "y축 %"
       ],
       "path": "education-care-realignment/slot-14.html",
-      "publicUrl": "education-care-realignment/slot-14.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-14.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -278,7 +278,7 @@
       "heightPx": 520,
       "units": [],
       "path": "education-care-realignment/slot-15.html",
-      "publicUrl": "education-care-realignment/slot-15.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-15.html",
       "dataDownload": "data/education-care-realignment.xlsx"
     },
     {
@@ -291,7 +291,7 @@
       "heightPx": 520,
       "units": [],
       "path": "politics/slot-1.html",
-      "publicUrl": "politics/slot-1.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-1.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -306,7 +306,7 @@
         "y축 %"
       ],
       "path": "politics/slot-2.html",
-      "publicUrl": "politics/slot-2.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-2.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -321,7 +321,7 @@
         "y축 %"
       ],
       "path": "politics/slot-3.html",
-      "publicUrl": "politics/slot-3.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-3.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -336,7 +336,7 @@
         "y축 %"
       ],
       "path": "politics/slot-4.html",
-      "publicUrl": "politics/slot-4.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-4.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -351,7 +351,7 @@
         "y축 %"
       ],
       "path": "politics/slot-5.html",
-      "publicUrl": "politics/slot-5.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-5.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -366,7 +366,7 @@
         "y축 %"
       ],
       "path": "politics/slot-6.html",
-      "publicUrl": "politics/slot-6.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-6.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -381,7 +381,7 @@
         "y축 %"
       ],
       "path": "politics/slot-7.html",
-      "publicUrl": "politics/slot-7.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-7.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -394,7 +394,7 @@
       "heightPx": 520,
       "units": [],
       "path": "politics/slot-8.html",
-      "publicUrl": "politics/slot-8.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-8.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -409,7 +409,7 @@
         "y축 %"
       ],
       "path": "politics/slot-9.html",
-      "publicUrl": "politics/slot-9.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-9.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -424,7 +424,7 @@
         "y축 %"
       ],
       "path": "politics/slot-10.html",
-      "publicUrl": "politics/slot-10.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-10.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -439,7 +439,7 @@
         "y축 %"
       ],
       "path": "politics/slot-11.html",
-      "publicUrl": "politics/slot-11.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-11.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -454,7 +454,7 @@
         "y축 %"
       ],
       "path": "politics/slot-12.html",
-      "publicUrl": "politics/slot-12.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-12.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -469,7 +469,7 @@
         "y축 %"
       ],
       "path": "politics/slot-13.html",
-      "publicUrl": "politics/slot-13.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-13.html",
       "dataDownload": "data/politics.xlsx"
     },
     {
@@ -482,7 +482,7 @@
       "heightPx": 520,
       "units": [],
       "path": "politics/slot-14.html",
-      "publicUrl": "politics/slot-14.html",
+      "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-14.html",
       "dataDownload": "data/politics.xlsx"
     }
   ]
