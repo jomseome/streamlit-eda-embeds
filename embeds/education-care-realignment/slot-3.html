@@ -354,7 +354,7 @@
     }
 
     function highlightedMarkerSize(size) {
-      return Math.max(size + hoverMarkerBoost + 10, size * 5);
+      return Math.max(size + hoverMarkerBoost + 3, size * 1.9);
     }
 
     function sourceColorArray(rawColor, count, fallback) {
@@ -509,19 +509,16 @@
       if (!point) return;
       restoreBaseState().then(function() {
         const targetTraceIndex = point.curveNumber;
-        const pointHover = isPointHover(event, targetTraceIndex);
         const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
         const shouldColorizeLine = lineHoverMode === "line_and_point";
         if (shouldColorizeLine && lineTraceIndex >= 0) {
           const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
           Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
         }
-        if (pointHover) {
-          const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
-          if (markerTraceIndex >= 0) {
-            const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
-            Plotly.restyle(el, pointUpdate, [markerTraceIndex]);
-          }
+        const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
+        if (markerTraceIndex >= 0) {
+          const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
+          Plotly.restyle(el, pointUpdate, [markerTraceIndex]);
         }
       });
     });
