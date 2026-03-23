@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-03-17T08:50:56.189079+00:00",
+  "exportedAt": "2026-03-23T07:19:57.965573+00:00",
   "count": 29,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -69,7 +69,7 @@
       "renderer": "education_care_fig01",
       "heightPx": 520,
       "units": [
-        "y축 천명"
+        "y축 천 명"
       ],
       "path": "education-care-realignment/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-1.html",
@@ -218,7 +218,9 @@
       "caption": "학부모 만족도 국제 비교",
       "renderer": "education_care_fig11",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 점"
+      ],
       "path": "education-care-realignment/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-11.html",
       "dataDownload": "data/education-care-realignment.xlsx"
