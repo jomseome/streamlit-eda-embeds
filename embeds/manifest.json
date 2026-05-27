@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-27T07:20:15.049676+00:00",
+  "exportedAt": "2026-05-27T07:56:02.733470+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -176,7 +176,7 @@
       "renderer": "paper::individual-family-community::그림 1-8",
       "heightPx": 430,
       "units": [
-        "x축 %"
+        "y축 %"
       ],
       "path": "individual-family-community/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8.html",
@@ -297,7 +297,7 @@
       "slotTitle": "그림 1-17",
       "caption": "그림 1-17",
       "renderer": "paper::individual-family-community::그림 1-17",
-      "heightPx": 620,
+      "heightPx": 580,
       "units": [],
       "path": "individual-family-community/slot-17.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-17.html",
