@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-27T05:35:13.470513+00:00",
+  "exportedAt": "2026-05-27T05:41:34.985520+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -43,7 +43,7 @@
       ]
     },
     "interaction": {
-      "grayscale": true,
+      "grayscale": false,
       "neutral_line_color": "#8E8E93",
       "neutral_marker_color": "#A8A8AE",
       "neutral_fill_color": "rgba(160, 160, 168, 0.18)",
