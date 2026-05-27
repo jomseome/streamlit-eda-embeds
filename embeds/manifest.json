@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-27T06:48:12.501816+00:00",
+  "exportedAt": "2026-05-27T06:52:22.817351+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -284,7 +284,7 @@
       "slotTitle": "그림 1-17",
       "caption": "그림 1-17",
       "renderer": "paper::individual-family-community::그림 1-17",
-      "heightPx": 560,
+      "heightPx": 620,
       "units": [],
       "path": "individual-family-community/slot-17.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-17.html",
