@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-27T06:57:22.422418+00:00",
+  "exportedAt": "2026-05-27T07:06:49.315900+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -129,7 +129,9 @@
       "caption": "그림 1-5 연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-5",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -142,7 +144,9 @@
       "caption": "사회단체 유형별 참여율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-6",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -155,7 +159,9 @@
       "caption": "지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023",
       "renderer": "paper::individual-family-community::그림 1-7",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -168,7 +174,9 @@
       "caption": "OECD 국가의 사회적 고립 인구 비율, 2021",
       "renderer": "paper::individual-family-community::그림 1-8",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "x축 %"
+      ],
       "path": "individual-family-community/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -207,7 +215,9 @@
       "caption": "고립감을 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-11",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -220,7 +230,9 @@
       "caption": "연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-12",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -298,7 +310,9 @@
       "caption": "외국인 이민자와 노동자에 대한 포용도, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-18",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-18.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18.html",
       "dataDownload": "data/individual-family-community.xlsx"
@@ -311,7 +325,9 @@
       "caption": "반려동물 보유 인구 비율, 2010-2024",
       "renderer": "paper::individual-family-community::그림 1-19",
       "heightPx": 430,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "individual-family-community/slot-19.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19.html",
       "dataDownload": "data/individual-family-community.xlsx"
