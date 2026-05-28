@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-28T07:34:46.494322+00:00",
+  "exportedAt": "2026-05-28T07:40:10.354462+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -930,7 +930,9 @@
       "caption": "소득분위별 소득비, 2024",
       "renderer": "paper::economy-living-standards::그림 5-1",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-1.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -982,7 +984,9 @@
       "caption": "가구주 교육수준별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-5",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-5.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -995,7 +999,9 @@
       "caption": "가구주 직업별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-6",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-6.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1008,7 +1014,9 @@
       "caption": "가구주 종사상지위별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-7",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-7.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1021,7 +1029,9 @@
       "caption": "소득분위별 경상소득 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-8",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-8.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1034,7 +1044,9 @@
       "caption": "소득분위별 경상소득 대비 근로소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-9",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-9.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1047,7 +1059,9 @@
       "caption": "소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-10",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-10.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1060,7 +1074,9 @@
       "caption": "가구주 연령별 소득원천 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-11",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-11.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1073,7 +1089,9 @@
       "caption": "소득분위별 자산비와 부채비, 2025",
       "renderer": "paper::economy-living-standards::그림 5-12",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-12.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1099,7 +1117,9 @@
       "caption": "소득분위별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-14",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-14.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-14.html",
       "dataDownload": "data/economy-living-standards.xlsx"
@@ -1112,7 +1132,9 @@
       "caption": "가구주 연령별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-15",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "economy-living-standards/slot-15.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-15.html",
       "dataDownload": "data/economy-living-standards.xlsx"
