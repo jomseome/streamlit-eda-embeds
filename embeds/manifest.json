@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-28T07:27:09.058946+00:00",
+  "exportedAt": "2026-05-28T07:34:46.494322+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -756,7 +756,9 @@
       "caption": "경제활동참가율과 고용률 및 실업률, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-1",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-1.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -769,7 +771,9 @@
       "caption": "성별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-2",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-2.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-2.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -782,7 +786,9 @@
       "caption": "연령별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-3",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-3.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -834,7 +840,9 @@
       "caption": "비정규직 근로자 비율, 2003-2025",
       "renderer": "paper::work-and-occupation::그림 4-7",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-7.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -847,7 +855,9 @@
       "caption": "성 및 연령별 비정규직 근로자 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-8",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-8.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -860,7 +870,9 @@
       "caption": "신규 채용 임금근로자의 일자리 특성별 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-9",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-9.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -873,7 +885,9 @@
       "caption": "단시간 근로자와 초단시간 근로자 비율, 2000-2025",
       "renderer": "paper::work-and-occupation::그림 4-10",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-10.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -886,7 +900,9 @@
       "caption": "성별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-11",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-11.html",
       "dataDownload": "data/work-and-occupation.xlsx"
@@ -899,7 +915,9 @@
       "caption": "연령별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-12",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "work-and-occupation/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-12.html",
       "dataDownload": "data/work-and-occupation.xlsx"
