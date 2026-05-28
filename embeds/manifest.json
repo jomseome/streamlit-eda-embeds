@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-28T05:57:49.678120+00:00",
+  "exportedAt": "2026-05-28T06:24:30.344047+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -354,7 +354,9 @@
       "caption": "이타주의와 이기주의에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-2",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-2.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-2.html",
       "dataDownload": "data/politics.xlsx"
@@ -367,7 +369,9 @@
       "caption": "공정성에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-3",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-3.html",
       "dataDownload": "data/politics.xlsx"
@@ -380,7 +384,9 @@
       "caption": "중앙정부에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-4",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-4.html",
       "dataDownload": "data/politics.xlsx"
@@ -393,7 +399,9 @@
       "caption": "대통령실에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-5",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-5.html",
       "dataDownload": "data/politics.xlsx"
@@ -406,7 +414,9 @@
       "caption": "국회에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-6",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-6.html",
       "dataDownload": "data/politics.xlsx"
@@ -419,7 +429,9 @@
       "caption": "대법원에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-7",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-7.html",
       "dataDownload": "data/politics.xlsx"
@@ -445,7 +457,9 @@
       "caption": "선거 투표율, 1987-2025",
       "renderer": "paper::politics::그림 2-9",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-9.html",
       "dataDownload": "data/politics.xlsx"
@@ -458,7 +472,9 @@
       "caption": "비선거적 정치 참여율, 2013-2024",
       "renderer": "paper::politics::그림 2-10",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-10.html",
       "dataDownload": "data/politics.xlsx"
@@ -471,7 +487,9 @@
       "caption": "무당파의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-11",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-11.html",
       "dataDownload": "data/politics.xlsx"
@@ -484,7 +502,9 @@
       "caption": "진보 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-12",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-12.html",
       "dataDownload": "data/politics.xlsx"
@@ -497,7 +517,9 @@
       "caption": "보수 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-13",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "politics/slot-13.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-13.html",
       "dataDownload": "data/politics.xlsx"
