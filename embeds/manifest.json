@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-05-28T06:51:52.281442+00:00",
+  "exportedAt": "2026-05-28T07:01:46.100362+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -584,7 +584,9 @@
       "caption": "한국과 OECD 국가의 교육단계별 GDP 대비 공교육비 비율, 2022",
       "renderer": "paper::education-care-realignment::그림 3-4",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-4.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -610,7 +612,9 @@
       "caption": "한국과 OECD 국가의 PISA 수학 점수 분산 비율, 2012, 2022",
       "renderer": "paper::education-care-realignment::그림 3-6",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-6.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -650,7 +654,7 @@
       "renderer": "paper::education-care-realignment::그림 3-9",
       "heightPx": 520,
       "units": [
-        "점"
+        "y축 %"
       ],
       "path": "education-care-realignment/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-9.html",
@@ -664,7 +668,9 @@
       "caption": "OECD 주요국 학생의 학업 관련 불안감, 2015",
       "renderer": "paper::education-care-realignment::그림 3-10",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-10.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -690,7 +696,9 @@
       "caption": "교육수준별 전공-직업 일치도, 2000-2024",
       "renderer": "paper::education-care-realignment::그림 3-12",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-12.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -703,7 +711,9 @@
       "caption": "보육 및 유아교육 기관 만족도, 2015-2024",
       "renderer": "paper::education-care-realignment::그림 3-13",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-13.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-13.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -716,7 +726,9 @@
       "caption": "주요국 학생의 학교 밖 신체활동 미참여율, 2015",
       "renderer": "paper::education-care-realignment::그림 3-14",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-14.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-14.html",
       "dataDownload": "data/education-care-realignment.xlsx"
@@ -729,7 +741,9 @@
       "caption": "OECD 주요국의 GDP 대비 보육 및 유아교육 공공지출 비율, 2019",
       "renderer": "paper::education-care-realignment::그림 3-15",
       "heightPx": 520,
-      "units": [],
+      "units": [
+        "y축 %"
+      ],
       "path": "education-care-realignment/slot-15.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-15.html",
       "dataDownload": "data/education-care-realignment.xlsx"
