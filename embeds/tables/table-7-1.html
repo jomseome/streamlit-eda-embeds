@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>표 7-1. 자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #fff;
+      color: #000;
+      font-family: "Noto Serif KR", "Nanum Myeongjo", "Apple SD Gothic Neo", serif;
+      overflow: hidden;
+    }
+    .shell {
+      box-sizing: border-box;
+      width: 100%;
+      height: 100vh;
+      padding: 22px 36px 18px;
+      overflow: auto;
+    }
+    .toolbar {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 10px;
+    }
+    .download {
+      border: 1px solid #536B9D;
+      color: #293F73;
+      background: #fff;
+      border-radius: 999px;
+      padding: 6px 12px;
+      font: 700 12px "Apple SD Gothic Neo", sans-serif;
+      text-decoration: none;
+    }
+    .heading {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-weight: 700;
+    }
+    .label {
+      background: #536B9D;
+      color: #fff;
+      padding: 5px 14px;
+      font-size: 14px;
+      line-height: 1;
+    }
+    .title {
+      font-size: 15px;
+      color: #000;
+    }
+    .table-wrap {
+      overflow: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+      border-top: 1.5px solid #536B9D;
+      border-bottom: 1.5px solid #536B9D;
+      font-size: 13px;
+      line-height: 1.18;
+    }
+    th, td {
+      padding: 4px 7px;
+      text-align: center;
+      vertical-align: middle;
+      border-left: 0;
+      border-right: 0;
+      white-space: normal;
+      word-break: keep-all;
+    }
+    th {
+      background: #DCE3F1;
+      color: #000;
+      font-weight: 700;
+      border-bottom: 1px solid #536B9D;
+    }
+    td.stub, th.stub {
+      text-align: center;
+      font-weight: 700;
+    }
+    .notes {
+      margin-top: 10px;
+      font-size: 12px;
+      line-height: 1.45;
+      font-family: "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+    }
+    .notes p {
+      margin: 0 0 2px;
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="toolbar"><a class="download" href="data/table-7-1.xlsx" download="table-7-1.xlsx">Excel 다운로드</a></div>
+    <div class="heading"><span class="label">표 7-1</span><span class="title">자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024</span></div>
+    
+      <div class="table-wrap">
+        <table>
+          <tbody>
+            <tr><th rowspan="2" class="stub">재해 원인</th><th colspan="5">피해액 비율(%)</th><th colspan="5">사망자 비율(%)</th></tr><tr><th >2020</th><th >2021</th><th >2022</th><th >2023</th><th >2024</th><th >2020</th><th >2021</th><th >2022</th><th >2023</th><th >2024</th></tr><tr><td class="stub">호우</td><td >83.1</td><td >61.5</td><td >56.1</td><td >80.8</td><td >46.6</td><td >56.9</td><td >7.1</td><td >27.4</td><td >36.5</td><td >4.2</td></tr><tr><td class="stub">태풍</td><td >16.9</td><td >31.9</td><td >41.2</td><td >5.8</td><td >0</td><td >2.8</td><td >-</td><td >17.7</td><td >-</td><td >-</td></tr><tr><td class="stub">한파</td><td >0</td><td >0.4</td><td >-</td><td >1</td><td >0</td><td >-</td><td >-</td><td >-</td><td >1.5</td><td >-</td></tr><tr><td class="stub">대설</td><td >-</td><td >5.3</td><td >2.6</td><td >0.3</td><td >49.9</td><td >-</td><td >-</td><td >-</td><td >-</td><td >5.8</td></tr><tr><td class="stub">폭염</td><td >-</td><td >-</td><td >-</td><td >0</td><td >0.3</td><td >40.3</td><td >92.9</td><td >54.8</td><td >62</td><td >90</td></tr><tr><td class="stub">기타</td><td >0</td><td >0.8</td><td >0.1</td><td >12</td><td >3.3</td><td >-</td><td >-</td><td >-</td><td >-</td><td >-</td></tr><tr><td class="stub">합계</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td><td >100</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="notes"><p>주: 1) 피해액 비율 = (재해 원인별 피해액 ÷ 전체 피해액) × 100. 피해액은 공공과 민간의 재산 피해 복구 비용을 포함한 직접 경제적 손실을 기준으로 하며, 간접손실(생산성 저하, 보험 미반영 손실 등)은 포함되지 않음.</p><p>2) 사망자 비율 = (재해 원인별 사망자 수 ÷ 전체 사망자 수) × 100.</p><p>출처: 행정안전부, ｢자연재해현황｣.</p></div>
+    
+  </main>
+</body>
+</html>
