@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-09T04:33:06.806205+00:00",
+  "exportedAt": "2026-06-09T04:41:29.712829+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -26,8 +26,8 @@
         "font": {
           "size": 11
         },
-        "x": 1.01,
-        "xanchor": "left",
+        "x": 1.0,
+        "xanchor": "right",
         "y": 0.98,
         "yanchor": "top"
       }
