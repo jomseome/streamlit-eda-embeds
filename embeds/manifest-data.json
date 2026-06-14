@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-14T08:07:12.237781+00:00",
+  "exportedAt": "2026-06-14T08:20:18.417906+00:00",
   "count": 114,
   "defaultHeight": 430,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -83,7 +83,8 @@
       "path": "individual-family-community/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-1-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "individual-family-community",
@@ -97,7 +98,8 @@
       "path": "individual-family-community/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-2-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "individual-family-community",
@@ -111,7 +113,8 @@
       "path": "individual-family-community/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "individual-family-community",
@@ -125,7 +128,8 @@
       "path": "individual-family-community/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-4-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 6
     },
     {
       "storySlug": "individual-family-community",
@@ -141,7 +145,8 @@
       "path": "individual-family-community/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "individual-family-community",
@@ -157,7 +162,8 @@
       "path": "individual-family-community/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 9
     },
     {
       "storySlug": "individual-family-community",
@@ -173,7 +179,8 @@
       "path": "individual-family-community/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "individual-family-community",
@@ -189,7 +196,8 @@
       "path": "individual-family-community/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "individual-family-community",
@@ -203,7 +211,8 @@
       "path": "individual-family-community/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-9-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "individual-family-community",
@@ -217,7 +226,8 @@
       "path": "individual-family-community/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-10-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "individual-family-community",
@@ -233,7 +243,8 @@
       "path": "individual-family-community/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "individual-family-community",
@@ -249,7 +260,8 @@
       "path": "individual-family-community/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "individual-family-community",
@@ -263,7 +275,8 @@
       "path": "individual-family-community/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-13-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 11
     },
     {
       "storySlug": "individual-family-community",
@@ -277,7 +290,8 @@
       "path": "individual-family-community/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "individual-family-community",
@@ -291,7 +305,8 @@
       "path": "individual-family-community/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-15-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 8
     },
     {
       "storySlug": "individual-family-community",
@@ -305,7 +320,8 @@
       "path": "individual-family-community/slot-16-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-16-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "individual-family-community",
@@ -319,7 +335,8 @@
       "path": "individual-family-community/slot-17-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-17-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "individual-family-community",
@@ -335,7 +352,8 @@
       "path": "individual-family-community/slot-18-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "individual-family-community",
@@ -351,7 +369,8 @@
       "path": "individual-family-community/slot-19-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19-data.html",
       "dataDownload": "data/individual-family-community.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -365,7 +384,8 @@
       "path": "politics/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-1-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -381,7 +401,8 @@
       "path": "politics/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-2-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -397,7 +418,8 @@
       "path": "politics/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-3-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -413,7 +435,8 @@
       "path": "politics/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-4-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -429,7 +452,8 @@
       "path": "politics/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-5-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -445,7 +469,8 @@
       "path": "politics/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-6-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -461,7 +486,8 @@
       "path": "politics/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-7-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "politics",
@@ -475,7 +501,8 @@
       "path": "politics/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-8-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "politics",
@@ -491,7 +518,8 @@
       "path": "politics/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-9-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -507,7 +535,8 @@
       "path": "politics/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-10-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 8
     },
     {
       "storySlug": "politics",
@@ -523,7 +552,8 @@
       "path": "politics/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-11-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -539,7 +569,8 @@
       "path": "politics/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-12-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -555,7 +586,8 @@
       "path": "politics/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-13-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "politics",
@@ -569,7 +601,8 @@
       "path": "politics/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-14-data.html",
       "dataDownload": "data/politics.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "education-care-realignment",
@@ -583,7 +616,8 @@
       "path": "education-care-realignment/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-1-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "education-care-realignment",
@@ -597,7 +631,8 @@
       "path": "education-care-realignment/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-2-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -611,7 +646,8 @@
       "path": "education-care-realignment/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-3-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -627,7 +663,8 @@
       "path": "education-care-realignment/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-4-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -641,7 +678,8 @@
       "path": "education-care-realignment/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-5-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -657,7 +695,8 @@
       "path": "education-care-realignment/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-6-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -671,7 +710,8 @@
       "path": "education-care-realignment/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-7-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "education-care-realignment",
@@ -685,7 +725,8 @@
       "path": "education-care-realignment/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-8-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "education-care-realignment",
@@ -701,7 +742,8 @@
       "path": "education-care-realignment/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-9-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "education-care-realignment",
@@ -717,7 +759,8 @@
       "path": "education-care-realignment/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-10-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "education-care-realignment",
@@ -731,7 +774,8 @@
       "path": "education-care-realignment/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-11-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "education-care-realignment",
@@ -747,7 +791,8 @@
       "path": "education-care-realignment/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-12-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "education-care-realignment",
@@ -763,7 +808,8 @@
       "path": "education-care-realignment/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-13-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "education-care-realignment",
@@ -779,7 +825,8 @@
       "path": "education-care-realignment/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-14-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "education-care-realignment",
@@ -795,7 +842,8 @@
       "path": "education-care-realignment/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-15-data.html",
       "dataDownload": "data/education-care-realignment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "work-and-occupation",
@@ -811,7 +859,8 @@
       "path": "work-and-occupation/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-1-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "work-and-occupation",
@@ -827,7 +876,8 @@
       "path": "work-and-occupation/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-2-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "work-and-occupation",
@@ -843,7 +893,8 @@
       "path": "work-and-occupation/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-3-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "work-and-occupation",
@@ -857,7 +908,8 @@
       "path": "work-and-occupation/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-4-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "work-and-occupation",
@@ -871,7 +923,8 @@
       "path": "work-and-occupation/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-5-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "work-and-occupation",
@@ -885,7 +938,8 @@
       "path": "work-and-occupation/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-6-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "work-and-occupation",
@@ -901,7 +955,8 @@
       "path": "work-and-occupation/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-7-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "work-and-occupation",
@@ -917,7 +972,8 @@
       "path": "work-and-occupation/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-8-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "work-and-occupation",
@@ -933,7 +989,8 @@
       "path": "work-and-occupation/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-9-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "work-and-occupation",
@@ -949,7 +1006,8 @@
       "path": "work-and-occupation/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-10-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "work-and-occupation",
@@ -965,7 +1023,8 @@
       "path": "work-and-occupation/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-11-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "work-and-occupation",
@@ -981,7 +1040,8 @@
       "path": "work-and-occupation/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-12-data.html",
       "dataDownload": "data/work-and-occupation.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "economy-living-standards",
@@ -997,7 +1057,8 @@
       "path": "economy-living-standards/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-1-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "economy-living-standards",
@@ -1011,7 +1072,8 @@
       "path": "economy-living-standards/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-2-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "economy-living-standards",
@@ -1025,7 +1087,8 @@
       "path": "economy-living-standards/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-3-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "economy-living-standards",
@@ -1039,7 +1102,8 @@
       "path": "economy-living-standards/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-4-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "economy-living-standards",
@@ -1055,7 +1119,8 @@
       "path": "economy-living-standards/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-5-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "economy-living-standards",
@@ -1071,7 +1136,8 @@
       "path": "economy-living-standards/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-6-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 7
     },
     {
       "storySlug": "economy-living-standards",
@@ -1087,7 +1153,8 @@
       "path": "economy-living-standards/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-7-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "economy-living-standards",
@@ -1103,7 +1170,8 @@
       "path": "economy-living-standards/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-8-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "economy-living-standards",
@@ -1119,7 +1187,8 @@
       "path": "economy-living-standards/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-9-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 6
     },
     {
       "storySlug": "economy-living-standards",
@@ -1135,7 +1204,8 @@
       "path": "economy-living-standards/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-10-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 6
     },
     {
       "storySlug": "economy-living-standards",
@@ -1151,7 +1221,8 @@
       "path": "economy-living-standards/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-11-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "economy-living-standards",
@@ -1167,7 +1238,8 @@
       "path": "economy-living-standards/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-12-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "economy-living-standards",
@@ -1181,7 +1253,8 @@
       "path": "economy-living-standards/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-13-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "economy-living-standards",
@@ -1197,7 +1270,8 @@
       "path": "economy-living-standards/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-14-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 12
     },
     {
       "storySlug": "economy-living-standards",
@@ -1213,7 +1287,8 @@
       "path": "economy-living-standards/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-15-data.html",
       "dataDownload": "data/economy-living-standards.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 12
     },
     {
       "storySlug": "technology-information",
@@ -1229,7 +1304,8 @@
       "path": "technology-information/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-1-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1245,7 +1321,8 @@
       "path": "technology-information/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-2-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "technology-information",
@@ -1261,7 +1338,8 @@
       "path": "technology-information/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-3-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1277,7 +1355,8 @@
       "path": "technology-information/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-4-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "technology-information",
@@ -1293,7 +1372,8 @@
       "path": "technology-information/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-5-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1309,7 +1389,8 @@
       "path": "technology-information/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-6-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1325,7 +1406,8 @@
       "path": "technology-information/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-7-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1341,7 +1423,8 @@
       "path": "technology-information/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-8-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "technology-information",
@@ -1355,7 +1438,8 @@
       "path": "technology-information/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-9-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1371,7 +1455,8 @@
       "path": "technology-information/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-10-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1385,7 +1470,8 @@
       "path": "technology-information/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-11-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "technology-information",
@@ -1401,7 +1487,8 @@
       "path": "technology-information/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-12-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "technology-information",
@@ -1417,7 +1504,8 @@
       "path": "technology-information/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-13-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "technology-information",
@@ -1433,7 +1521,8 @@
       "path": "technology-information/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-14-data.html",
       "dataDownload": "data/technology-information.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "energy-environment",
@@ -1447,7 +1536,8 @@
       "path": "energy-environment/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-1-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "energy-environment",
@@ -1463,7 +1553,8 @@
       "path": "energy-environment/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-2-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "energy-environment",
@@ -1479,7 +1570,8 @@
       "path": "energy-environment/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-3-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 7
     },
     {
       "storySlug": "energy-environment",
@@ -1493,7 +1585,8 @@
       "path": "energy-environment/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-4-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 6
     },
     {
       "storySlug": "energy-environment",
@@ -1509,7 +1602,8 @@
       "path": "energy-environment/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-5-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "energy-environment",
@@ -1525,7 +1619,8 @@
       "path": "energy-environment/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-6-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "energy-environment",
@@ -1541,7 +1636,8 @@
       "path": "energy-environment/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-7-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "energy-environment",
@@ -1555,7 +1651,8 @@
       "path": "energy-environment/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-8-data.html",
       "dataDownload": "data/energy-environment.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "space-region",
@@ -1569,7 +1666,8 @@
       "path": "space-region/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-1-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "space-region",
@@ -1585,7 +1683,8 @@
       "path": "space-region/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-2-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1599,7 +1698,8 @@
       "path": "space-region/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-3-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1615,7 +1715,8 @@
       "path": "space-region/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-4-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1629,7 +1730,8 @@
       "path": "space-region/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-5-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "space-region",
@@ -1643,7 +1745,8 @@
       "path": "space-region/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-6-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 5
     },
     {
       "storySlug": "space-region",
@@ -1657,7 +1760,8 @@
       "path": "space-region/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-7-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1673,7 +1777,8 @@
       "path": "space-region/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-8-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1687,7 +1792,8 @@
       "path": "space-region/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-9-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1701,7 +1807,8 @@
       "path": "space-region/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-10-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 0
     },
     {
       "storySlug": "space-region",
@@ -1715,7 +1822,8 @@
       "path": "space-region/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-11-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "space-region",
@@ -1729,7 +1837,8 @@
       "path": "space-region/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-12-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1745,7 +1854,8 @@
       "path": "space-region/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-13-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 4
     },
     {
       "storySlug": "space-region",
@@ -1761,7 +1871,8 @@
       "path": "space-region/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-14-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 3
     },
     {
       "storySlug": "space-region",
@@ -1777,7 +1888,8 @@
       "path": "space-region/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-15-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "space-region",
@@ -1791,7 +1903,8 @@
       "path": "space-region/slot-16-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-16-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     },
     {
       "storySlug": "space-region",
@@ -1807,7 +1920,8 @@
       "path": "space-region/slot-17-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-17-data.html",
       "dataDownload": "data/space-region.xlsx",
-      "variant": "data"
+      "variant": "data",
+      "customLegendCount": 2
     }
   ]
 }
