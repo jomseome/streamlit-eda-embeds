@@ -5,7 +5,7 @@
       "tableId": "table-1-1",
       "storySlug": "individual-family-community",
       "storyTitle": "개인·가족·공동체",
-      "title": "표 1-1. 주요 인구 지표, 1960-2024",
+      "title": "주요 인구 지표, 1960-2024",
       "sourceWorkbook": "1 개인 가족 공동체.xlsx",
       "sourceSheet": "표 1-1",
       "page": "012",
@@ -13,13 +13,13 @@
       "path": "tables/table-1-1.html",
       "dataPath": "tables/data/table-1-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html\" title=\"표 1-1. 주요 인구 지표, 1960-2024\" width=\"100%\" height=\"640\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html\" title=\"주요 인구 지표, 1960-2024\" width=\"100%\" height=\"640\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-1-2",
       "storySlug": "individual-family-community",
       "storyTitle": "개인·가족·공동체",
-      "title": "표 1-2. 주요 가구 지표, 1970-2024",
+      "title": "주요 가구 지표, 1970-2024",
       "sourceWorkbook": "1 개인 가족 공동체.xlsx",
       "sourceSheet": "표 1-2",
       "page": "015",
@@ -27,13 +27,13 @@
       "path": "tables/table-1-2.html",
       "dataPath": "tables/data/table-1-2.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2.html\" title=\"표 1-2. 주요 가구 지표, 1970-2024\" width=\"100%\" height=\"620\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2.html\" title=\"주요 가구 지표, 1970-2024\" width=\"100%\" height=\"620\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-3-1",
       "storySlug": "education-care-realignment",
       "storyTitle": "교육과 돌봄",
-      "title": "표 3-1. 시도별 초등학교 1학년 늘봄학교 참여율, 2024",
+      "title": "시도별 초등학교 1학년 늘봄학교 참여율, 2024",
       "sourceWorkbook": "3 교육과 돌봄.xlsx",
       "sourceSheet": "표 3-1",
       "page": "072",
@@ -41,13 +41,13 @@
       "path": "tables/table-3-1.html",
       "dataPath": "tables/data/table-3-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-3-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-3-1.html\" title=\"표 3-1. 시도별 초등학교 1학년 늘봄학교 참여율, 2024\" width=\"100%\" height=\"720\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-3-1.html\" title=\"시도별 초등학교 1학년 늘봄학교 참여율, 2024\" width=\"100%\" height=\"720\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-4-1",
       "storySlug": "work-and-occupation",
       "storyTitle": "일과 직업",
-      "title": "표 4-1. 임금근로자 유형별 일자리 특성, 2015, 2025",
+      "title": "임금근로자 유형별 일자리 특성, 2015, 2025",
       "sourceWorkbook": "4 일과 직업.xlsx",
       "sourceSheet": "표 4-1",
       "page": "086",
@@ -55,13 +55,13 @@
       "path": "tables/table-4-1.html",
       "dataPath": "tables/data/table-4-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html\" title=\"표 4-1. 임금근로자 유형별 일자리 특성, 2015, 2025\" width=\"100%\" height=\"640\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html\" title=\"임금근로자 유형별 일자리 특성, 2015, 2025\" width=\"100%\" height=\"640\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-4-2",
       "storySlug": "work-and-occupation",
       "storyTitle": "일과 직업",
-      "title": "표 4-2. 임금근로자 유형별 사회보험 가입률, 2025",
+      "title": "임금근로자 유형별 사회보험 가입률, 2025",
       "sourceWorkbook": "4 일과 직업.xlsx",
       "sourceSheet": "표 4-2",
       "page": "087",
@@ -69,13 +69,13 @@
       "path": "tables/table-4-2.html",
       "dataPath": "tables/data/table-4-2.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-2.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-2.html\" title=\"표 4-2. 임금근로자 유형별 사회보험 가입률, 2025\" width=\"100%\" height=\"660\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-2.html\" title=\"임금근로자 유형별 사회보험 가입률, 2025\" width=\"100%\" height=\"660\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-4-3",
       "storySlug": "work-and-occupation",
       "storyTitle": "일과 직업",
-      "title": "표 4-3. 산업별 고용 증가비, 2023",
+      "title": "산업별 고용 증가비, 2023",
       "sourceWorkbook": "4 일과 직업.xlsx",
       "sourceSheet": "표 4-3",
       "page": "092",
@@ -83,13 +83,13 @@
       "path": "tables/table-4-3.html",
       "dataPath": "tables/data/table-4-3.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-3.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-3.html\" title=\"표 4-3. 산업별 고용 증가비, 2023\" width=\"100%\" height=\"820\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-3.html\" title=\"산업별 고용 증가비, 2023\" width=\"100%\" height=\"820\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-5-1",
       "storySlug": "economy-living-standards",
       "storyTitle": "경제와 생활수준",
-      "title": "표 5-1. 소득분위별 경상소득 금액, 2024",
+      "title": "소득분위별 경상소득 금액, 2024",
       "sourceWorkbook": "5 경제와 생활수준.xlsx",
       "sourceSheet": "표 5-1",
       "page": "108",
@@ -97,13 +97,13 @@
       "path": "tables/table-5-1.html",
       "dataPath": "tables/data/table-5-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-1.html\" title=\"표 5-1. 소득분위별 경상소득 금액, 2024\" width=\"100%\" height=\"500\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-1.html\" title=\"소득분위별 경상소득 금액, 2024\" width=\"100%\" height=\"500\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-5-2",
       "storySlug": "economy-living-standards",
       "storyTitle": "경제와 생활수준",
-      "title": "표 5-2. 소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024",
+      "title": "소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024",
       "sourceWorkbook": "5 경제와 생활수준.xlsx",
       "sourceSheet": "표 5-2",
       "page": "109",
@@ -111,13 +111,13 @@
       "path": "tables/table-5-2.html",
       "dataPath": "tables/data/table-5-2.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2.html\" title=\"표 5-2. 소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024\" width=\"100%\" height=\"520\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2.html\" title=\"소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024\" width=\"100%\" height=\"520\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-7-1",
       "storySlug": "energy-environment",
       "storyTitle": "에너지와 환경",
-      "title": "표 7-1. 자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024",
+      "title": "자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024",
       "sourceWorkbook": "7 에너지와 환경.xlsx",
       "sourceSheet": "표 7-1",
       "page": "141",
@@ -125,13 +125,13 @@
       "path": "tables/table-7-1.html",
       "dataPath": "tables/data/table-7-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-7-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-7-1.html\" title=\"표 7-1. 자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024\" width=\"100%\" height=\"560\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-7-1.html\" title=\"자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024\" width=\"100%\" height=\"560\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-8-1",
       "storySlug": "space-region",
       "storyTitle": "공간과 지역",
-      "title": "표 8-1. 지역별 주택 수와 가구 수, 2015-2024",
+      "title": "지역별 주택 수와 가구 수, 2015-2024",
       "sourceWorkbook": "8 공간과 지역.xlsx",
       "sourceSheet": "표 8-1",
       "page": "158",
@@ -139,13 +139,13 @@
       "path": "tables/table-8-1.html",
       "dataPath": "tables/data/table-8-1.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-1.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-1.html\" title=\"표 8-1. 지역별 주택 수와 가구 수, 2015-2024\" width=\"100%\" height=\"560\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-1.html\" title=\"지역별 주택 수와 가구 수, 2015-2024\" width=\"100%\" height=\"560\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     },
     {
       "tableId": "table-8-2",
       "storySlug": "space-region",
       "storyTitle": "공간과 지역",
-      "title": "표 8-2. 지역별 노후주택 수와 비율, 2015-2024",
+      "title": "지역별 노후주택 수와 비율, 2015-2024",
       "sourceWorkbook": "8 공간과 지역.xlsx",
       "sourceSheet": "표 8-2",
       "page": "170",
@@ -153,7 +153,7 @@
       "path": "tables/table-8-2.html",
       "dataPath": "tables/data/table-8-2.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-2.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-2.html\" title=\"표 8-2. 지역별 노후주택 수와 비율, 2015-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>"
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-8-2.html\" title=\"지역별 노후주택 수와 비율, 2015-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>"
     }
   ]
 }
