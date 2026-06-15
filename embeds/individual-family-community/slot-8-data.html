@@ -41,7 +41,13 @@
     .embed-units {
       font-size: 12px;
       color: #4B5563;
-      margin-right: auto;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+    .kossda-unit-line {
+      flex: 0 0 auto;
+      margin: -4px 0 8px;
+      padding: 0 24px;
     }
     .embed-actions {
       display: flex;
@@ -141,13 +147,13 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="embed-toolbar kossda-embed-toolbar">
-      <div class="embed-units">단위: y축 %</div>
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
         <a id="download-data" class="embed-button" href="../data/individual-family-community.xlsx" download="1 개인 가족 공동체.xlsx">원본 데이터 Excel 다운로드</a>
       </div>
     </div>
     <div class="kossda-chart-title">OECD 국가의 사회적 고립 인구 비율, 2021</div>
+    <div class="embed-units kossda-unit-line">단위: y축 %</div>
     
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="개인·가족·공동체 - OECD 국가의 사회적 고립 인구 비율, 2021"></div>

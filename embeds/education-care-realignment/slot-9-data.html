@@ -41,7 +41,13 @@
     .embed-units {
       font-size: 12px;
       color: #4B5563;
-      margin-right: auto;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+    .kossda-unit-line {
+      flex: 0 0 auto;
+      margin: -4px 0 8px;
+      padding: 0 24px;
     }
     .embed-actions {
       display: flex;
@@ -141,13 +147,13 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="embed-toolbar kossda-embed-toolbar">
-      <div class="embed-units">단위: y축 %</div>
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
         <a id="download-data" class="embed-button" href="../data/education-care-realignment.xlsx" download="3 교육과 돌봄.xlsx">원본 데이터 Excel 다운로드</a>
       </div>
     </div>
     <div class="kossda-chart-title">초·중·고 학교에 대한 평가, 2024</div>
+    <div class="embed-units kossda-unit-line">단위: y축 %</div>
     <div class="kossda-custom-legend" aria-label="범례"><button class="kossda-legend-item" type="button" data-legend-label="잘하고 있다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#6A7CA2;"></span><span class="kossda-legend-label">잘하고 있다</span></button><button class="kossda-legend-item" type="button" data-legend-label="보통이다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#C9D3E0;"></span><span class="kossda-legend-label">보통이다</span></button><button class="kossda-legend-item" type="button" data-legend-label="못하고 있다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#9B83B8;"></span><span class="kossda-legend-label">못하고 있다</span></button></div>
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="교육과 돌봄 - 초·중·고 학교에 대한 평가, 2024"></div>

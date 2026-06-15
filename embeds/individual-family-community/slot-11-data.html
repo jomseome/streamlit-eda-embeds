@@ -41,7 +41,13 @@
     .embed-units {
       font-size: 12px;
       color: #4B5563;
-      margin-right: auto;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+    .kossda-unit-line {
+      flex: 0 0 auto;
+      margin: -4px 0 8px;
+      padding: 0 24px;
     }
     .embed-actions {
       display: flex;
@@ -141,13 +147,13 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="embed-toolbar kossda-embed-toolbar">
-      <div class="embed-units">단위: y축 %</div>
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
         <a id="download-data" class="embed-button" href="../data/individual-family-community.xlsx" download="1 개인 가족 공동체.xlsx">원본 데이터 Excel 다운로드</a>
       </div>
     </div>
     <div class="kossda-chart-title">고립감을 느끼는 인구의 비율, 2013-2024</div>
+    <div class="embed-units kossda-unit-line">단위: y축 %</div>
     <div class="kossda-custom-legend" aria-label="범례"><button class="kossda-legend-item" type="button" data-legend-label="외롭다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#2F4B8C;"></span><span class="kossda-legend-label">외롭다</span></button><button class="kossda-legend-item" type="button" data-legend-label="자살하고 싶은 생각이 들 때가 있다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#D77C7C;"></span><span class="kossda-legend-label">자살하고 싶은 생각이 들 때가 있다</span></button><button class="kossda-legend-item" type="button" data-legend-label="아무도 자신을 잘 알지 못한다" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#8A6FC7;"></span><span class="kossda-legend-label">아무도 자신을 잘 알지 못한다</span></button></div>
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="개인·가족·공동체 - 고립감을 느끼는 인구의 비율, 2013-2024"></div>

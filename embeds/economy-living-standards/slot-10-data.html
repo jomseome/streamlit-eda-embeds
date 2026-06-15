@@ -41,7 +41,13 @@
     .embed-units {
       font-size: 12px;
       color: #4B5563;
-      margin-right: auto;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+    .kossda-unit-line {
+      flex: 0 0 auto;
+      margin: -4px 0 8px;
+      padding: 0 24px;
     }
     .embed-actions {
       display: flex;
@@ -141,13 +147,13 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="embed-toolbar kossda-embed-toolbar">
-      <div class="embed-units">단위: y축 %</div>
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
         <a id="download-data" class="embed-button" href="../data/economy-living-standards.xlsx" download="5 경제와 생활수준.xlsx">원본 데이터 Excel 다운로드</a>
       </div>
     </div>
     <div class="kossda-chart-title">소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024</div>
+    <div class="embed-units kossda-unit-line">단위: y축 %</div>
     <div class="kossda-custom-legend" aria-label="범례"><button class="kossda-legend-item" type="button" data-legend-label="전체" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#9B83B8;"></span><span class="kossda-legend-label">전체</span></button><button class="kossda-legend-item" type="button" data-legend-label="1분위" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#6A7CA2;"></span><span class="kossda-legend-label">1분위</span></button><button class="kossda-legend-item" type="button" data-legend-label="2분위" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#C9D3E0;"></span><span class="kossda-legend-label">2분위</span></button><button class="kossda-legend-item" type="button" data-legend-label="3분위" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#8EB7D8;"></span><span class="kossda-legend-label">3분위</span></button><button class="kossda-legend-item" type="button" data-legend-label="4분위" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#87C2BE;"></span><span class="kossda-legend-label">4분위</span></button><button class="kossda-legend-item" type="button" data-legend-label="5분위" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#4F648B;"></span><span class="kossda-legend-label">5분위</span></button></div>
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="경제와 생활수준 - 소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024"></div>

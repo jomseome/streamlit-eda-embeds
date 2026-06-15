@@ -41,7 +41,13 @@
     .embed-units {
       font-size: 12px;
       color: #4B5563;
-      margin-right: auto;
+      line-height: 1.4;
+      box-sizing: border-box;
+    }
+    .kossda-unit-line {
+      flex: 0 0 auto;
+      margin: -4px 0 8px;
+      padding: 0 24px;
     }
     .embed-actions {
       display: flex;
@@ -141,13 +147,13 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="embed-toolbar kossda-embed-toolbar">
-      
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
         <a id="download-data" class="embed-button" href="../data/energy-environment.xlsx" download="7 에너지와 환경.xlsx">원본 데이터 Excel 다운로드</a>
       </div>
     </div>
     <div class="kossda-chart-title">온실가스 순배출량과 2035 국가온실가스감축목표(NDC)</div>
+    
     <div class="kossda-custom-legend" aria-label="범례"><button class="kossda-legend-item" type="button" data-legend-label="순배출량" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#4F648B;"></span><span class="kossda-legend-label">순배출량</span></button><button class="kossda-legend-item" type="button" data-legend-label="2030 NDC" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#9B83B8;"></span><span class="kossda-legend-label">2030 NDC</span></button><button class="kossda-legend-item" type="button" data-legend-label="48% 감축안" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#86B3D1;"></span><span class="kossda-legend-label">48% 감축안</span></button><button class="kossda-legend-item" type="button" data-legend-label="53% 감축안" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#8FC2AE;"></span><span class="kossda-legend-label">53% 감축안</span></button><button class="kossda-legend-item" type="button" data-legend-label="61% 감축안" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#BFAAD8;"></span><span class="kossda-legend-label">61% 감축안</span></button><button class="kossda-legend-item" type="button" data-legend-label="65% 감축안" aria-pressed="true"><span class="kossda-legend-swatch" style="background:#9CA3AF;"></span><span class="kossda-legend-label">65% 감축안</span></button></div>
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="에너지와 환경 - 온실가스 순배출량과 2035 국가온실가스감축목표(NDC)"></div>
