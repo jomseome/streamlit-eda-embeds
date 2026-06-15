@@ -629,21 +629,15 @@
         const fillColors = grayscaleEnabled
           ? normalizedArray(count, neutralBarFill)
           : sourceColorArray((sourceTrace.marker || {}).color, count, color);
-        const lineColors = grayscaleEnabled
-          ? normalizedArray(count, neutralBarLine)
-          : sourceColorArray(((sourceTrace.marker || {}).line || {}).color, count, color);
         if (pointIndex >= 0 && pointIndex < count) {
           fillColors[pointIndex] = darkColor;
-          lineColors[pointIndex] = darkColor;
         }
         update["marker.color"] = [fillColors];
-        update["marker.line.color"] = [lineColors];
         return update;
       }
       const count = pointCount(sourceTrace, traceIndex);
       if (sourceTrace._interactiveRole === "line") {
         update["line.color"] = [darkColor];
-        update["line.width"] = [Math.max(Number((sourceTrace.line || {}).width || 2) + 1, 3)];
         return update;
       }
 
@@ -656,8 +650,6 @@
         const markerColors = grayscaleEnabled
           ? normalizedArray(count, emphasizePoint ? colorWithAlpha(color, 0.35) : neutralMarkerColor)
           : sourceColorArray((sourceTrace.marker || {}).color, count, colorWithAlpha(color, 0.45));
-        const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
-        const markerLineWidths = normalizedArray(count, 0);
         if (highlightTraceMarkers) {
           for (let index = 0; index < count; index += 1) {
             markerColors[index] = colorWithAlpha(color, 0.8);
@@ -665,20 +657,14 @@
         }
         if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
           markerColors[pointIndex] = darkColor;
-          markerLineColors[pointIndex] = "#FFFFFF";
-          markerLineWidths[pointIndex] = 4;
         }
         update["marker.color"] = [markerColors];
-        update["marker.line.color"] = [markerLineColors];
-        update["marker.line.width"] = [markerLineWidths];
       } else {
         update["line.color"] = [darkColor];
         if (count > 0) {
           const markerColors = grayscaleEnabled
             ? normalizedArray(count, neutralMarkerColor)
             : sourceColorArray((sourceTrace.marker || {}).color, count, colorWithAlpha(color, 0.45));
-          const markerLineColors = normalizedArray(count, "rgba(255,255,255,0)");
-          const markerLineWidths = normalizedArray(count, 0);
           if (highlightTraceMarkers) {
             for (let index = 0; index < count; index += 1) {
               markerColors[index] = colorWithAlpha(color, 0.8);
@@ -686,33 +672,14 @@
           }
           if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
             markerColors[pointIndex] = darkColor;
-            markerLineColors[pointIndex] = "#FFFFFF";
-            markerLineWidths[pointIndex] = 4;
           }
           update["marker.color"] = [markerColors];
-          update["marker.line.color"] = [markerLineColors];
-          update["marker.line.width"] = [markerLineWidths];
         } else {
           update["marker.color"] = [darkColor];
         }
         if (typeof sourceTrace.fill === "string" && sourceTrace.fill !== "none") {
           update.fillcolor = [colorWithAlpha(color, 0.18)];
         }
-      }
-      if (count > 0) {
-        const size = baseMarkerSize(traceIndex);
-        const sizes = grayscaleEnabled
-          ? normalizedArray(count, size)
-          : sourceNumberArray((sourceTrace.marker || {}).size, count, size);
-        if (highlightTraceMarkers) {
-          for (let index = 0; index < count; index += 1) {
-            sizes[index] = Math.max(sizes[index], size + hoverMarkerBoost + 1);
-          }
-        }
-        if (emphasizePoint && pointIndex >= 0 && pointIndex < count) {
-          sizes[pointIndex] = highlightedMarkerSize(size);
-        }
-        update["marker.size"] = [sizes];
       }
       return update;
     }
@@ -810,8 +777,18 @@
       resizePlot();
     });
     
+    let lastPlotSize = null;
     function resizePlot() {
       if (!el || !el.offsetWidth) return;
+      const measuredSize = plotAreaSize();
+      if (
+        lastPlotSize &&
+        lastPlotSize.width === measuredSize.width &&
+        lastPlotSize.height === measuredSize.height
+      ) {
+        return;
+      }
+      lastPlotSize = measuredSize;
       const nextLayout = stableLayout((el && el.layout) || baseLayout);
       Plotly.relayout(el, { width: nextLayout.width, height: nextLayout.height });
     }
