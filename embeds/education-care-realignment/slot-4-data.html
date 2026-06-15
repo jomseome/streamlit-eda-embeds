@@ -168,7 +168,7 @@
     const excelDownloadName = "3 교육과 돌봄.xlsx";
     const imageBaseName = "OECD-GDP-2022";
     const showNativeHoverLabels = false;
-    const enableDynamicResize = false;
+    const enableDynamicResize = true;
     const el = document.getElementById("plotly-root");
     const plotArea = document.querySelector(".kossda-plot-area");
     const downloadChartButton = document.getElementById("download-chart");
@@ -194,6 +194,7 @@
       displayModeBar: false
     };
     const baseMarkerSizes = new Map();
+    let isHoveringPlot = false;
 
     function plotAreaSize() {
       const fallbackHeight = Math.max(240, Number(430) - 128);
@@ -750,6 +751,7 @@
     el.on("plotly_hover", function(event) {
       const point = event && event.points && event.points[0];
       if (!point) return;
+      isHoveringPlot = true;
       resetHoverStyles().then(function() {
         const targetTraceIndex = point.curveNumber;
         const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
@@ -767,7 +769,10 @@
     });
 
     el.on("plotly_unhover", function() {
-      resetHoverStyles();
+      resetHoverStyles().then(function() {
+        isHoveringPlot = false;
+        resizePlot();
+      });
     });
 
     downloadChartButton.addEventListener("click", function() {
@@ -792,6 +797,7 @@
     let lastPlotSize = null;
     function resizePlot() {
       if (!enableDynamicResize) return;
+      if (isHoveringPlot) return;
       if (!el || !el.offsetWidth) return;
       const measuredSize = plotAreaSize();
       if (
