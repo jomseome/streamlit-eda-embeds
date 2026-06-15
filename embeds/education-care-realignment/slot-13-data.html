@@ -11,10 +11,11 @@
   <style>
     
     .hoverlayer { display: none !important; }
-    .barlayer path:hover,
-    .scatterlayer .points path:hover,
-    .scatterlayer .js-line:hover {
-      filter: brightness(0.74) saturate(1.08);
+    .kossda-dom-hover .js-line,
+    .kossda-dom-hover .point,
+    .kossda-dom-hover path,
+    .kossda-dom-hover-point {
+      filter: brightness(0.62) saturate(1.18);
     }
     html, body {
       margin: 0;
@@ -725,6 +726,45 @@
       });
     }
 
+    function cssEscape(value) {
+      if (window.CSS && typeof window.CSS.escape === "function") {
+        return window.CSS.escape(value);
+      }
+      return String(value).replace(/[^a-zA-Z0-9_-]/g, "\\$&");
+    }
+
+    function traceDomNode(traceIndex) {
+      const fullTrace = (el && el._fullData && el._fullData[traceIndex]) || {};
+      if (fullTrace.uid) {
+        const byUid = document.querySelector("." + cssEscape("trace" + fullTrace.uid));
+        if (byUid) return byUid;
+      }
+      const nodes = Array.from(document.querySelectorAll(".scatterlayer .trace, .barlayer .trace"));
+      return nodes[traceIndex] || null;
+    }
+
+    function clearDomHoverStyles() {
+      document.querySelectorAll(".kossda-dom-hover").forEach(function(node) {
+        node.classList.remove("kossda-dom-hover");
+      });
+      document.querySelectorAll(".kossda-dom-hover-point").forEach(function(node) {
+        node.classList.remove("kossda-dom-hover-point");
+      });
+    }
+
+    function applyDomHoverTrace(traceIndex, pointIndex) {
+      if (traceIndex < 0) return;
+      const node = traceDomNode(traceIndex);
+      if (!node) return;
+      node.classList.add("kossda-dom-hover");
+      if (pointIndex >= 0) {
+        const pointNodes = node.querySelectorAll(".points path, path.point, path");
+        if (pointNodes && pointNodes[pointIndex]) {
+          pointNodes[pointIndex].classList.add("kossda-dom-hover-point");
+        }
+      }
+    }
+
     Plotly.newPlot(el, buildBaseFigure().data || [], layout, config).then(function() {
       if (Array.isArray(originalFigure.frames) && originalFigure.frames.length > 0) {
         Plotly.addFrames(el, originalFigure.frames);
@@ -780,6 +820,27 @@
           isHoveringPlot = false;
           resizePlot();
         });
+      });
+    } else {
+      el.on("plotly_hover", function(event) {
+        const point = event && event.points && event.points[0];
+        if (!point) return;
+        isHoveringPlot = true;
+        clearDomHoverStyles();
+        const targetTraceIndex = point.curveNumber;
+        const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
+        const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
+        applyDomHoverTrace(lineTraceIndex, -1);
+        applyDomHoverTrace(markerTraceIndex, point.pointNumber);
+        if (lineTraceIndex < 0 && markerTraceIndex < 0) {
+          applyDomHoverTrace(targetTraceIndex, point.pointNumber);
+        }
+      });
+
+      el.on("plotly_unhover", function() {
+        clearDomHoverStyles();
+        isHoveringPlot = false;
+        resizePlot();
       });
     }
 
