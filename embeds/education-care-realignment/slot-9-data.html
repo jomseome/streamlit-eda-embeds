@@ -168,6 +168,7 @@
     const excelDownloadName = "3 교육과 돌봄.xlsx";
     const imageBaseName = "2024";
     const showNativeHoverLabels = false;
+    const enableDynamicResize = false;
     const el = document.getElementById("plotly-root");
     const plotArea = document.querySelector(".kossda-plot-area");
     const downloadChartButton = document.getElementById("download-chart");
@@ -189,7 +190,7 @@
     const grayscaleEnabled = interaction.grayscale !== false;
     const baseLayout = Object.assign({}, originalFigure.layout || {}, { autosize: true });
     const config = {
-      responsive: true,
+      responsive: false,
       displayModeBar: false
     };
     const baseMarkerSizes = new Map();
@@ -790,6 +791,7 @@
     
     let lastPlotSize = null;
     function resizePlot() {
+      if (!enableDynamicResize) return;
       if (!el || !el.offsetWidth) return;
       const measuredSize = plotAreaSize();
       if (
