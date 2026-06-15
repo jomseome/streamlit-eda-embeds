@@ -11,6 +11,11 @@
   <style>
     
     .hoverlayer { display: none !important; }
+    .barlayer path:hover,
+    .scatterlayer .points path:hover,
+    .scatterlayer .js-line:hover {
+      filter: brightness(0.74) saturate(1.08);
+    }
     html, body {
       margin: 0;
       padding: 0;
@@ -169,6 +174,7 @@
     const imageBaseName = "1990-2023";
     const showNativeHoverLabels = false;
     const enableDynamicResize = true;
+    const enablePlotlyHoverRestyle = false;
     const el = document.getElementById("plotly-root");
     const plotArea = document.querySelector(".kossda-plot-area");
     const downloadChartButton = document.getElementById("download-chart");
@@ -748,32 +754,34 @@
       });
     });
 
-    el.on("plotly_hover", function(event) {
-      const point = event && event.points && event.points[0];
-      if (!point) return;
-      isHoveringPlot = true;
-      resetHoverStyles().then(function() {
-        const targetTraceIndex = point.curveNumber;
-        const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
-        const shouldColorizeLine = lineHoverMode === "line_and_point";
-        if (shouldColorizeLine && lineTraceIndex >= 0) {
-          const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
-          restyleHoverTrace(lineTraceIndex, lineUpdate);
-        }
-        const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
-        if (markerTraceIndex >= 0) {
-          const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
-          restyleHoverTrace(markerTraceIndex, pointUpdate);
-        }
+    if (enablePlotlyHoverRestyle) {
+      el.on("plotly_hover", function(event) {
+        const point = event && event.points && event.points[0];
+        if (!point) return;
+        isHoveringPlot = true;
+        resetHoverStyles().then(function() {
+          const targetTraceIndex = point.curveNumber;
+          const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
+          const shouldColorizeLine = lineHoverMode === "line_and_point";
+          if (shouldColorizeLine && lineTraceIndex >= 0) {
+            const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
+            restyleHoverTrace(lineTraceIndex, lineUpdate);
+          }
+          const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
+          if (markerTraceIndex >= 0) {
+            const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
+            restyleHoverTrace(markerTraceIndex, pointUpdate);
+          }
+        });
       });
-    });
 
-    el.on("plotly_unhover", function() {
-      resetHoverStyles().then(function() {
-        isHoveringPlot = false;
-        resizePlot();
+      el.on("plotly_unhover", function() {
+        resetHoverStyles().then(function() {
+          isHoveringPlot = false;
+          resizePlot();
+        });
       });
-    });
+    }
 
     downloadChartButton.addEventListener("click", function() {
       Plotly.downloadImage(el, {
