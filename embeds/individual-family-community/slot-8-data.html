@@ -10,6 +10,7 @@
   <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
   <style>
     
+    .hoverlayer { display: none !important; }
     html, body {
       margin: 0;
       padding: 0;
@@ -166,6 +167,7 @@
     const excelDownloadUrl = "../data/individual-family-community.xlsx";
     const excelDownloadName = "1 개인 가족 공동체.xlsx";
     const imageBaseName = "OECD-2021";
+    const showNativeHoverLabels = false;
     const el = document.getElementById("plotly-root");
     const plotArea = document.querySelector(".kossda-plot-area");
     const downloadChartButton = document.getElementById("download-chart");
@@ -357,6 +359,13 @@
       return (kind === "scatter" || kind === "scattergl") && mode.includes("lines") && mode.includes("markers");
     }
 
+    function suppressNativeHoverLabel(trace) {
+      if (showNativeHoverLabels || !trace) return trace;
+      trace.hovertemplate = "<extra></extra>";
+      trace.hoverinfo = "none";
+      return trace;
+    }
+
     function buildInteractiveFigure() {
       const figure = deepClone(originalFigure);
       const traces = [];
@@ -364,6 +373,7 @@
         if (!isSplitTimeSeriesTrace(trace)) {
           trace._interactiveOriginalIndex = originalIndex;
           trace._interactiveRole = "single";
+          suppressNativeHoverLabel(trace);
           traces.push(trace);
           return;
         }
@@ -395,6 +405,7 @@
         markerTrace.showlegend = false;
         markerTrace._interactiveOriginalIndex = originalIndex;
         markerTrace._interactiveRole = "marker";
+        suppressNativeHoverLabel(markerTrace);
         traces.push(markerTrace);
       });
       figure.data = traces;
