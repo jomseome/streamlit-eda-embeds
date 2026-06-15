@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-15T00:17:53.517650+00:00",
+  "exportedAt": "2026-06-15T00:36:31.551988+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -78,7 +78,7 @@
       "slotTitle": "인구의 성 및 연령별 구성, 1960, 2025",
       "caption": "인구의 성 및 연령별 구성, 1960, 2025",
       "renderer": "paper::individual-family-community::그림 1-1",
-      "heightPx": 400,
+      "heightPx": 450,
       "units": [],
       "path": "individual-family-community/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-1.html",
@@ -93,7 +93,7 @@
       "slotTitle": "청년층과 중장년층의 수도권 전출입 인구, 2004-2024",
       "caption": "청년층과 중장년층의 수도권 전출입 인구, 2004-2024",
       "renderer": "paper::individual-family-community::그림 1-2",
-      "heightPx": 400,
+      "heightPx": 472,
       "units": [],
       "path": "individual-family-community/slot-2.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-2.html",
@@ -108,7 +108,7 @@
       "slotTitle": "조혼인율과 조이혼율 및 합계출산율, 1970-2024",
       "caption": "조혼인율과 조이혼율 및 합계출산율, 1970-2024",
       "renderer": "paper::individual-family-community::그림 1-3",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "individual-family-community/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3.html",
@@ -123,7 +123,7 @@
       "slotTitle": "위기 시 도움받을 사람이 없는 인구의 비율, 2009-2025",
       "caption": "위기 시 도움받을 사람이 없는 인구의 비율, 2009-2025",
       "renderer": "paper::individual-family-community::그림 1-4",
-      "heightPx": 420,
+      "heightPx": 580,
       "units": [],
       "path": "individual-family-community/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-4.html",
@@ -138,7 +138,7 @@
       "slotTitle": "연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024",
       "caption": "연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-5",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -155,7 +155,7 @@
       "slotTitle": "사회단체 유형별 참여율, 2013-2024",
       "caption": "사회단체 유형별 참여율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-6",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -172,7 +172,7 @@
       "slotTitle": "지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023",
       "caption": "지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023",
       "renderer": "paper::individual-family-community::그림 1-7",
-      "heightPx": 430,
+      "heightPx": 482,
       "units": [
         "y축 %"
       ],
@@ -189,7 +189,7 @@
       "slotTitle": "OECD 국가의 사회적 고립 인구 비율, 2021",
       "caption": "OECD 국가의 사회적 고립 인구 비율, 2021",
       "renderer": "paper::individual-family-community::그림 1-8",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -206,7 +206,7 @@
       "slotTitle": "정서 경험과 삶의 만족도, 2013-2024",
       "caption": "정서 경험과 삶의 만족도, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-9",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "individual-family-community/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-9.html",
@@ -221,7 +221,7 @@
       "slotTitle": "연령별 삶의 만족도, 2013-2024",
       "caption": "연령별 삶의 만족도, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-10",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "individual-family-community/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-10.html",
@@ -236,7 +236,7 @@
       "slotTitle": "고립감을 느끼는 인구의 비율, 2013-2024",
       "caption": "고립감을 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-11",
-      "heightPx": 430,
+      "heightPx": 498,
       "units": [
         "y축 %"
       ],
@@ -253,7 +253,7 @@
       "slotTitle": "연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024",
       "caption": "연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-12",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -270,7 +270,7 @@
       "slotTitle": "OECD 주요국의 행복지수, 2011-2024",
       "caption": "OECD 주요국의 행복지수, 2011-2024",
       "renderer": "paper::individual-family-community::그림 1-13",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [],
       "path": "individual-family-community/slot-13.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-13.html",
@@ -285,7 +285,7 @@
       "slotTitle": "체류외국인 수와 미등록 체류외국인 비율, 1998-2024",
       "caption": "체류외국인 수와 미등록 체류외국인 비율, 1998-2024",
       "renderer": "paper::individual-family-community::그림 1-14",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "individual-family-community/slot-14.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14.html",
@@ -300,7 +300,7 @@
       "slotTitle": "체류 자격별 취업자(외국인) 수, 2012-2025",
       "caption": "체류 자격별 취업자(외국인) 수, 2012-2025",
       "renderer": "paper::individual-family-community::그림 1-15",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [],
       "path": "individual-family-community/slot-15.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-15.html",
@@ -315,7 +315,7 @@
       "slotTitle": "한국인 남편과 외국인 아내 혼인 건수, 1993-2024",
       "caption": "한국인 남편과 외국인 아내 혼인 건수, 1993-2024",
       "renderer": "paper::individual-family-community::그림 1-16",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "individual-family-community/slot-16.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-16.html",
@@ -345,7 +345,7 @@
       "slotTitle": "외국인 이민자와 노동자에 대한 포용도, 2013-2024",
       "caption": "외국인 이민자와 노동자에 대한 포용도, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-18",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -362,7 +362,7 @@
       "slotTitle": "반려동물 보유 인구 비율, 2010-2024",
       "caption": "반려동물 보유 인구 비율, 2010-2024",
       "renderer": "paper::individual-family-community::그림 1-19",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -379,7 +379,7 @@
       "slotTitle": "일반 신뢰, 2004-2025",
       "caption": "일반 신뢰, 2004-2025",
       "renderer": "paper::politics::그림 2-1",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "politics/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-1.html",
@@ -394,7 +394,7 @@
       "slotTitle": "이타주의와 이기주의에 대한 인식, 2003-2025",
       "caption": "이타주의와 이기주의에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-2",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -411,7 +411,7 @@
       "slotTitle": "공정성에 대한 인식, 2003-2025",
       "caption": "공정성에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-3",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -428,7 +428,7 @@
       "slotTitle": "중앙정부에 대한 신뢰, 2003-2025",
       "caption": "중앙정부에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-4",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -445,7 +445,7 @@
       "slotTitle": "대통령실에 대한 신뢰, 2003-2025",
       "caption": "대통령실에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-5",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -462,7 +462,7 @@
       "slotTitle": "국회에 대한 신뢰, 2003-2025",
       "caption": "국회에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-6",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -479,7 +479,7 @@
       "slotTitle": "대법원에 대한 신뢰, 2003-2025",
       "caption": "대법원에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-7",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -496,7 +496,7 @@
       "slotTitle": "이념 성향별 정치 효능감, 2013-2024",
       "caption": "이념 성향별 정치 효능감, 2013-2024",
       "renderer": "paper::politics::그림 2-8",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "politics/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-8.html",
@@ -511,7 +511,7 @@
       "slotTitle": "선거 투표율, 1987-2025",
       "caption": "선거 투표율, 1987-2025",
       "renderer": "paper::politics::그림 2-9",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -528,7 +528,7 @@
       "slotTitle": "비선거적 정치 참여율, 2013-2024",
       "caption": "비선거적 정치 참여율, 2013-2024",
       "renderer": "paper::politics::그림 2-10",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -545,7 +545,7 @@
       "slotTitle": "무당파의 이념 성향별 비율, 2003-2025",
       "caption": "무당파의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-11",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -562,7 +562,7 @@
       "slotTitle": "진보 정당 지지자의 이념 성향별 비율, 2003-2025",
       "caption": "진보 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-12",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -579,7 +579,7 @@
       "slotTitle": "보수 정당 지지자의 이념 성향별 비율, 2003-2025",
       "caption": "보수 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-13",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -596,7 +596,7 @@
       "slotTitle": "주요국의 정치 양극화 수준, 2000-2025",
       "caption": "주요국의 정치 양극화 수준, 2000-2025",
       "renderer": "paper::politics::그림 2-14",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "politics/slot-14.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-14.html",
@@ -611,7 +611,7 @@
       "slotTitle": "학교급별 학령인구 수, 2015-2035",
       "caption": "학교급별 학령인구 수, 2015-2035",
       "renderer": "paper::education-care-realignment::그림 3-1",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "education-care-realignment/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-1.html",
@@ -626,7 +626,7 @@
       "slotTitle": "한국과 OECD 국가의 초·중·고등학교 교사 1인당 학생 수, 2021, 2022, 2023",
       "caption": "한국과 OECD 국가의 초·중·고등학교 교사 1인당 학생 수, 2021, 2022, 2023",
       "renderer": "paper::education-care-realignment::그림 3-2",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "education-care-realignment/slot-2.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-2.html",
@@ -641,7 +641,7 @@
       "slotTitle": "한국과 OECD 국가의 초·중학교 학급당 학생 수, 2019, 2022, 2023",
       "caption": "한국과 OECD 국가의 초·중학교 학급당 학생 수, 2019, 2022, 2023",
       "renderer": "paper::education-care-realignment::그림 3-3",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "education-care-realignment/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-3.html",
@@ -656,7 +656,7 @@
       "slotTitle": "한국과 OECD 국가의 교육단계별 GDP 대비 공교육비 비율, 2022",
       "caption": "한국과 OECD 국가의 교육단계별 GDP 대비 공교육비 비율, 2022",
       "renderer": "paper::education-care-realignment::그림 3-4",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -673,7 +673,7 @@
       "slotTitle": "한국과 OECD 국가의 국제 학업성취도 평가(PISA) 결과, 2015, 2018, 2022",
       "caption": "한국과 OECD 국가의 국제 학업성취도 평가(PISA) 결과, 2015, 2018, 2022",
       "renderer": "paper::education-care-realignment::그림 3-5",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "education-care-realignment/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-5.html",
@@ -688,7 +688,7 @@
       "slotTitle": "한국과 OECD 국가의 PISA 수학 점수 분산 비율, 2012, 2022",
       "caption": "한국과 OECD 국가의 PISA 수학 점수 분산 비율, 2012, 2022",
       "renderer": "paper::education-care-realignment::그림 3-6",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -705,7 +705,7 @@
       "slotTitle": "학교급별 학생 1인당 월평균 사교육비, 2010-2024",
       "caption": "학교급별 학생 1인당 월평균 사교육비, 2010-2024",
       "renderer": "paper::education-care-realignment::그림 3-7",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "education-care-realignment/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-7.html",
@@ -720,7 +720,7 @@
       "slotTitle": "OECD 국가의 사교육 참여 수준, 2022",
       "caption": "OECD 국가의 사교육 참여 수준, 2022",
       "renderer": "paper::education-care-realignment::그림 3-8",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "education-care-realignment/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-8.html",
@@ -735,7 +735,7 @@
       "slotTitle": "초·중·고 학교에 대한 평가, 2024",
       "caption": "초·중·고 학교에 대한 평가, 2024",
       "renderer": "paper::education-care-realignment::그림 3-9",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -752,7 +752,7 @@
       "slotTitle": "OECD 주요국 학생의 학업 관련 불안감, 2015",
       "caption": "OECD 주요국 학생의 학업 관련 불안감, 2015",
       "renderer": "paper::education-care-realignment::그림 3-10",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -769,7 +769,7 @@
       "slotTitle": "OECD 주요국 학부모의 학교교육 만족도, 2009-2022",
       "caption": "OECD 주요국 학부모의 학교교육 만족도, 2009-2022",
       "renderer": "paper::education-care-realignment::그림 3-11",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "education-care-realignment/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-11.html",
@@ -784,7 +784,7 @@
       "slotTitle": "교육수준별 전공-직업 일치도, 2000-2024",
       "caption": "교육수준별 전공-직업 일치도, 2000-2024",
       "renderer": "paper::education-care-realignment::그림 3-12",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -801,7 +801,7 @@
       "slotTitle": "보육 및 유아교육 기관 만족도, 2015-2024",
       "caption": "보육 및 유아교육 기관 만족도, 2015-2024",
       "renderer": "paper::education-care-realignment::그림 3-13",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -818,7 +818,7 @@
       "slotTitle": "주요국 학생의 학교 밖 신체활동 미참여율, 2015",
       "caption": "주요국 학생의 학교 밖 신체활동 미참여율, 2015",
       "renderer": "paper::education-care-realignment::그림 3-14",
-      "heightPx": 430,
+      "heightPx": 518,
       "units": [
         "y축 %"
       ],
@@ -835,7 +835,7 @@
       "slotTitle": "OECD 주요국의 GDP 대비 보육 및 유아교육 공공지출 비율, 2019",
       "caption": "OECD 주요국의 GDP 대비 보육 및 유아교육 공공지출 비율, 2019",
       "renderer": "paper::education-care-realignment::그림 3-15",
-      "heightPx": 430,
+      "heightPx": 554,
       "units": [
         "y축 %"
       ],
@@ -852,7 +852,7 @@
       "slotTitle": "경제활동참가율과 고용률 및 실업률, 2000-2024",
       "caption": "경제활동참가율과 고용률 및 실업률, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-1",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -869,7 +869,7 @@
       "slotTitle": "성별 경제활동참가율, 2000-2024",
       "caption": "성별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-2",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -886,7 +886,7 @@
       "slotTitle": "연령별 경제활동참가율, 2000-2024",
       "caption": "연령별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-3",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -903,7 +903,7 @@
       "slotTitle": "월간 근로시간, 2011-2024",
       "caption": "월간 근로시간, 2011-2024",
       "renderer": "paper::work-and-occupation::그림 4-4",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "work-and-occupation/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-4.html",
@@ -918,7 +918,7 @@
       "slotTitle": "산업재해 사망률, 2005-2024",
       "caption": "산업재해 사망률, 2005-2024",
       "renderer": "paper::work-and-occupation::그림 4-5",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "work-and-occupation/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-5.html",
@@ -933,7 +933,7 @@
       "slotTitle": "노동시장 구성, 2005, 2015, 2025",
       "caption": "노동시장 구성, 2005, 2015, 2025",
       "renderer": "paper::work-and-occupation::그림 4-6",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "work-and-occupation/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-6.html",
@@ -948,7 +948,7 @@
       "slotTitle": "비정규직 근로자 비율, 2003-2025",
       "caption": "비정규직 근로자 비율, 2003-2025",
       "renderer": "paper::work-and-occupation::그림 4-7",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -965,7 +965,7 @@
       "slotTitle": "성 및 연령별 비정규직 근로자 비율, 2005-2025",
       "caption": "성 및 연령별 비정규직 근로자 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-8",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -982,7 +982,7 @@
       "slotTitle": "신규 채용 임금근로자의 일자리 특성별 비율, 2005-2025",
       "caption": "신규 채용 임금근로자의 일자리 특성별 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-9",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -999,7 +999,7 @@
       "slotTitle": "단시간 근로자와 초단시간 근로자 비율, 2000-2025",
       "caption": "단시간 근로자와 초단시간 근로자 비율, 2000-2025",
       "renderer": "paper::work-and-occupation::그림 4-10",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1016,7 +1016,7 @@
       "slotTitle": "성별 ‘쉬었음’ 인구 비율, 2018-2025",
       "caption": "성별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-11",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1033,7 +1033,7 @@
       "slotTitle": "연령별 ‘쉬었음’ 인구 비율, 2018-2025",
       "caption": "연령별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-12",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1050,7 +1050,7 @@
       "slotTitle": "소득분위별 소득비, 2024",
       "caption": "소득분위별 소득비, 2024",
       "renderer": "paper::economy-living-standards::그림 5-1",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1067,7 +1067,7 @@
       "slotTitle": "소득 5분위 배율, 2011-2024",
       "caption": "소득 5분위 배율, 2011-2024",
       "renderer": "paper::economy-living-standards::그림 5-2",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "economy-living-standards/slot-2.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-2.html",
@@ -1082,7 +1082,7 @@
       "slotTitle": "OECD 국가의 소득 5분위 배율, 2022",
       "caption": "OECD 국가의 소득 5분위 배율, 2022",
       "renderer": "paper::economy-living-standards::그림 5-3",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "economy-living-standards/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-3.html",
@@ -1097,7 +1097,7 @@
       "slotTitle": "가구주 연령별 소득 5분위 배율, 2024",
       "caption": "가구주 연령별 소득 5분위 배율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-4",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "economy-living-standards/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-4.html",
@@ -1112,7 +1112,7 @@
       "slotTitle": "가구주 교육수준별 소득비, 2016, 2020, 2024",
       "caption": "가구주 교육수준별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-5",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1129,7 +1129,7 @@
       "slotTitle": "가구주 직업별 소득비, 2016, 2020, 2024",
       "caption": "가구주 직업별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-6",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -1146,7 +1146,7 @@
       "slotTitle": "가구주 종사상지위별 소득비, 2016, 2020, 2024",
       "caption": "가구주 종사상지위별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-7",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1163,7 +1163,7 @@
       "slotTitle": "소득분위별 경상소득 구성 비율, 2024",
       "caption": "소득분위별 경상소득 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-8",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1180,7 +1180,7 @@
       "slotTitle": "소득분위별 경상소득 대비 근로소득 비율, 2016-2024",
       "caption": "소득분위별 경상소득 대비 근로소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-9",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1197,7 +1197,7 @@
       "slotTitle": "소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024",
       "caption": "소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-10",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1214,7 +1214,7 @@
       "slotTitle": "가구주 연령별 소득원천 구성 비율, 2024",
       "caption": "가구주 연령별 소득원천 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-11",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1231,7 +1231,7 @@
       "slotTitle": "소득분위별 자산비와 부채비, 2025",
       "caption": "소득분위별 자산비와 부채비, 2025",
       "renderer": "paper::economy-living-standards::그림 5-12",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1248,7 +1248,7 @@
       "slotTitle": "소득분위별 월평균 소비지출액과 소비지출비, 2024",
       "caption": "소득분위별 월평균 소비지출액과 소비지출비, 2024",
       "renderer": "paper::economy-living-standards::그림 5-13",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "economy-living-standards/slot-13.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-13.html",
@@ -1263,7 +1263,7 @@
       "slotTitle": "소득분위별 소비지출 구성 비율, 2024",
       "caption": "소득분위별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-14",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -1280,7 +1280,7 @@
       "slotTitle": "가구주 연령별 소비지출 구성 비율, 2024",
       "caption": "가구주 연령별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-15",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -1297,7 +1297,7 @@
       "slotTitle": "인터넷뱅킹 이용률, 2020-2025",
       "caption": "인터넷뱅킹 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-1",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1314,7 +1314,7 @@
       "slotTitle": "인공지능 서비스 인지율과 경험률, 2021-2025",
       "caption": "인공지능 서비스 인지율과 경험률, 2021-2025",
       "renderer": "paper::technology-information::그림 6-2",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1331,7 +1331,7 @@
       "slotTitle": "생성형 인공지능 서비스 경험률, 2023, 2024, 2025",
       "caption": "생성형 인공지능 서비스 경험률, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-3",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1348,7 +1348,7 @@
       "slotTitle": "생성형 인공지능 서비스 이용 목적, 2023, 2024",
       "caption": "생성형 인공지능 서비스 이용 목적, 2023, 2024",
       "renderer": "paper::technology-information::그림 6-4",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1365,7 +1365,7 @@
       "slotTitle": "인공지능 서비스의 효용성에 대한 인식, 2021, 2022",
       "caption": "인공지능 서비스의 효용성에 대한 인식, 2021, 2022",
       "renderer": "paper::technology-information::그림 6-5",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1382,7 +1382,7 @@
       "slotTitle": "인공지능 서비스의 사회적 영향에 대한 인식, 2023, 2024, 2025",
       "caption": "인공지능 서비스의 사회적 영향에 대한 인식, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-6",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1399,7 +1399,7 @@
       "slotTitle": "SNS 이용률, 2020-2025",
       "caption": "SNS 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-7",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1416,7 +1416,7 @@
       "slotTitle": "정보 검색 시 주로 이용하는 플랫폼, 2023, 2024, 2025",
       "caption": "정보 검색 시 주로 이용하는 플랫폼, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-8",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1433,7 +1433,7 @@
       "slotTitle": "동영상 서비스 이용 시간, 2020-2025",
       "caption": "동영상 서비스 이용 시간, 2020-2025",
       "renderer": "paper::technology-information::그림 6-9",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "technology-information/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-9.html",
@@ -1448,7 +1448,7 @@
       "slotTitle": "인터넷쇼핑 이용률, 2020-2025",
       "caption": "인터넷쇼핑 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-10",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1465,7 +1465,7 @@
       "slotTitle": "20대 인구와 70세 이상 인구의 디지털정보화 역량 수준, 2022, 2023, 2024",
       "caption": "20대 인구와 70세 이상 인구의 디지털정보화 역량 수준, 2022, 2023, 2024",
       "renderer": "paper::technology-information::그림 6-11",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "technology-information/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-11.html",
@@ -1480,7 +1480,7 @@
       "slotTitle": "일반 국민과 고령층의 인공지능 서비스 경험률, 2023, 2024",
       "caption": "일반 국민과 고령층의 인공지능 서비스 경험률, 2023, 2024",
       "renderer": "paper::technology-information::그림 6-12",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1497,7 +1497,7 @@
       "slotTitle": "연령별 생성형 인공지능 서비스 경험률, 2024",
       "caption": "연령별 생성형 인공지능 서비스 경험률, 2024",
       "renderer": "paper::technology-information::그림 6-13",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1514,7 +1514,7 @@
       "slotTitle": "교육수준별 생성형 인공지능 서비스 경험률, 2024",
       "caption": "교육수준별 생성형 인공지능 서비스 경험률, 2024",
       "renderer": "paper::technology-information::그림 6-14",
-      "heightPx": 430,
+      "heightPx": 470,
       "units": [
         "y축 %"
       ],
@@ -1531,7 +1531,7 @@
       "slotTitle": "한국의 연평균 기온과 극한기후 발생 일수, 1981-2024",
       "caption": "한국의 연평균 기온과 극한기후 발생 일수, 1981-2024",
       "renderer": "paper::energy-environment::그림 7-1",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "energy-environment/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-1.html",
@@ -1546,7 +1546,7 @@
       "slotTitle": "부문별 온실가스 배출량 비율, 1990-2023",
       "caption": "부문별 온실가스 배출량 비율, 1990-2023",
       "renderer": "paper::energy-environment::그림 7-2",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1563,7 +1563,7 @@
       "slotTitle": "산업 부문 업종별 온실가스 배출량 비율, 1998, 2023",
       "caption": "산업 부문 업종별 온실가스 배출량 비율, 1998, 2023",
       "renderer": "paper::energy-environment::그림 7-3",
-      "heightPx": 430,
+      "heightPx": 580,
       "units": [
         "y축 %"
       ],
@@ -1580,7 +1580,7 @@
       "slotTitle": "온실가스 순배출량과 2035 국가온실가스감축목표(NDC)",
       "caption": "온실가스 순배출량과 2035 국가온실가스감축목표(NDC)",
       "renderer": "paper::energy-environment::그림 7-4",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "energy-environment/slot-4.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-4.html",
@@ -1595,7 +1595,7 @@
       "slotTitle": "에너지원별 발전량 비율, 2017-2024",
       "caption": "에너지원별 발전량 비율, 2017-2024",
       "renderer": "paper::energy-environment::그림 7-5",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1612,7 +1612,7 @@
       "slotTitle": "재생에너지원별 발전량 비율, 2018-2024",
       "caption": "재생에너지원별 발전량 비율, 2018-2024",
       "renderer": "paper::energy-environment::그림 7-6",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1629,7 +1629,7 @@
       "slotTitle": "에너지 수입 의존도와 석유 의존도, 1995-2024",
       "caption": "에너지 수입 의존도와 석유 의존도, 1995-2024",
       "renderer": "paper::energy-environment::그림 7-7",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1646,7 +1646,7 @@
       "slotTitle": "전국 및 수도권 데이터센터 전력 사용량과 수도권 사용량 비율, 2021, 2022, 2023",
       "caption": "전국 및 수도권 데이터센터 전력 사용량과 수도권 사용량 비율, 2021, 2022, 2023",
       "renderer": "paper::energy-environment::그림 7-8",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "energy-environment/slot-8.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-8.html",
@@ -1661,7 +1661,7 @@
       "slotTitle": "전국 주택 수, 2010-2024",
       "caption": "전국 주택 수, 2010-2024",
       "renderer": "paper::space-region::그림 8-1",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "space-region/slot-1.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-1.html",
@@ -1676,7 +1676,7 @@
       "slotTitle": "지역별 주택보급률, 2010-2024",
       "caption": "지역별 주택보급률, 2010-2024",
       "renderer": "paper::space-region::그림 8-2",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1693,7 +1693,7 @@
       "slotTitle": "지역별 인구 1,000명당 주택 수, 2018-2024",
       "caption": "지역별 인구 1,000명당 주택 수, 2018-2024",
       "renderer": "paper::space-region::그림 8-3",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-3.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-3.html",
@@ -1708,7 +1708,7 @@
       "slotTitle": "지역별 자가소유율, 2015-2024",
       "caption": "지역별 자가소유율, 2015-2024",
       "renderer": "paper::space-region::그림 8-4",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1725,7 +1725,7 @@
       "slotTitle": "지역별 주택 매매가격지수, 2010.1-2025.12",
       "caption": "1-2025.12",
       "renderer": "paper::space-region::그림 8-5",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-5.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-5.html",
@@ -1740,7 +1740,7 @@
       "slotTitle": "지역별 주택 전세가격지수, 2010.1-2025.12",
       "caption": "1-2025.12",
       "renderer": "paper::space-region::그림 8-6",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-6.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-6.html",
@@ -1755,7 +1755,7 @@
       "slotTitle": "지역별 연소득 대비 주택가격 배율(PIR), 2006-2024",
       "caption": "지역별 연소득 대비 주택가격 배율(PIR), 2006-2024",
       "renderer": "paper::space-region::그림 8-7",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-7.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-7.html",
@@ -1770,7 +1770,7 @@
       "slotTitle": "지역별 월소득 대비 주택임대료 비율(RIR), 2006-2024",
       "caption": "지역별 월소득 대비 주택임대료 비율(RIR), 2006-2024",
       "renderer": "paper::space-region::그림 8-8",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1787,7 +1787,7 @@
       "slotTitle": "지역별 생애 첫 주택 구입 소요 기간, 2006-2024",
       "caption": "지역별 생애 첫 주택 구입 소요 기간, 2006-2024",
       "renderer": "paper::space-region::그림 8-9",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-9.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-9.html",
@@ -1802,7 +1802,7 @@
       "slotTitle": "전국 주택구입물량지수(K-HOI), 2012-2024",
       "caption": "전국 주택구입물량지수(K-HOI), 2012-2024",
       "renderer": "paper::space-region::그림 8-10",
-      "heightPx": 430,
+      "heightPx": 432,
       "units": [],
       "path": "space-region/slot-10.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-10.html",
@@ -1817,7 +1817,7 @@
       "slotTitle": "시도별 주택구입물량지수(K-HOI), 2012, 2024",
       "caption": "시도별 주택구입물량지수(K-HOI), 2012, 2024",
       "renderer": "paper::space-region::그림 8-11",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "space-region/slot-11.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-11.html",
@@ -1832,7 +1832,7 @@
       "slotTitle": "지역별 1인당 평균 주거면적, 2006-2024",
       "caption": "지역별 1인당 평균 주거면적, 2006-2024",
       "renderer": "paper::space-region::그림 8-12",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [],
       "path": "space-region/slot-12.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-12.html",
@@ -1847,7 +1847,7 @@
       "slotTitle": "지역별 최저주거기준 미달 가구 비율, 2016-2024",
       "caption": "지역별 최저주거기준 미달 가구 비율, 2016-2024",
       "renderer": "paper::space-region::그림 8-13",
-      "heightPx": 430,
+      "heightPx": 520,
       "units": [
         "y축 %"
       ],
@@ -1864,7 +1864,7 @@
       "slotTitle": "지역별 지하·반지하·옥탑방 거주 가구 비율, 2010, 2015, 2020",
       "caption": "지역별 지하·반지하·옥탑방 거주 가구 비율, 2010, 2015, 2020",
       "renderer": "paper::space-region::그림 8-14",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1881,7 +1881,7 @@
       "slotTitle": "미분양 주택의 수도권과 비수도권 분포 비율, 2010-2024",
       "caption": "미분양 주택의 수도권과 비수도권 분포 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-15",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
@@ -1898,7 +1898,7 @@
       "slotTitle": "전국 빈집 수와 비율, 2010-2024",
       "caption": "전국 빈집 수와 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-16",
-      "heightPx": 430,
+      "heightPx": 472,
       "units": [],
       "path": "space-region/slot-16.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-16.html",
@@ -1913,7 +1913,7 @@
       "slotTitle": "수도권과 비수도권의 빈집 비율, 2010-2024",
       "caption": "수도권과 비수도권의 빈집 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-17",
-      "heightPx": 430,
+      "heightPx": 490,
       "units": [
         "y축 %"
       ],
