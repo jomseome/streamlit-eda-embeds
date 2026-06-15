@@ -14,7 +14,7 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 482px;
+      height: 430px;
       overflow: hidden;
       background: #ffffff;
     }
@@ -24,7 +24,7 @@
     }
     .embed-shell {
       width: 100%;
-      height: 482px;
+      height: 430px;
       overflow: hidden;
       
     }
@@ -191,7 +191,7 @@
     const baseMarkerSizes = new Map();
 
     function plotAreaSize() {
-      const fallbackHeight = Math.max(240, Number(482) - 128);
+      const fallbackHeight = Math.max(240, Number(430) - 128);
       const height = Math.max(
         240,
         Math.floor((plotArea && plotArea.clientHeight) || el.clientHeight || fallbackHeight)
@@ -500,6 +500,42 @@
       );
     }
 
+    const hoverResetAttrs = new Map();
+
+    function traceAttr(trace, attr) {
+      return attr.split(".").reduce(function(value, key) {
+        return value == null ? undefined : value[key];
+      }, trace || {});
+    }
+
+    function resetUpdateForTrace(traceIndex, attrs) {
+      const baseTrace = (buildBaseFigure().data || [])[traceIndex] || {};
+      const update = {};
+      attrs.forEach(function(attr) {
+        const value = traceAttr(baseTrace, attr);
+        update[attr] = [value === undefined ? null : deepClone(value)];
+      });
+      return update;
+    }
+
+    function resetHoverStyles() {
+      const jobs = [];
+      hoverResetAttrs.forEach(function(attrs, traceIndex) {
+        jobs.push(Plotly.restyle(el, resetUpdateForTrace(Number(traceIndex), attrs), [Number(traceIndex)]));
+      });
+      hoverResetAttrs.clear();
+      return Promise.all(jobs);
+    }
+
+    function restyleHoverTrace(traceIndex, update) {
+      const attrs = hoverResetAttrs.get(traceIndex) || new Set();
+      Object.keys(update).forEach(function(attr) {
+        attrs.add(attr);
+      });
+      hoverResetAttrs.set(traceIndex, attrs);
+      return Plotly.restyle(el, update, [traceIndex]);
+    }
+
     function elementHasClass(node, className) {
       let current = node;
       while (current) {
@@ -733,24 +769,24 @@
     el.on("plotly_hover", function(event) {
       const point = event && event.points && event.points[0];
       if (!point) return;
-      restoreBaseState().then(function() {
+      resetHoverStyles().then(function() {
         const targetTraceIndex = point.curveNumber;
         const lineTraceIndex = pairedLineTraceIndex(targetTraceIndex);
         const shouldColorizeLine = lineHoverMode === "line_and_point";
         if (shouldColorizeLine && lineTraceIndex >= 0) {
           const lineUpdate = buildHighlightUpdate(lineTraceIndex, point.pointNumber, false);
-          Plotly.restyle(el, lineUpdate, [lineTraceIndex]);
+          restyleHoverTrace(lineTraceIndex, lineUpdate);
         }
         const markerTraceIndex = pairedMarkerTraceIndex(targetTraceIndex);
         if (markerTraceIndex >= 0) {
           const pointUpdate = buildHighlightUpdate(markerTraceIndex, point.pointNumber, true);
-          Plotly.restyle(el, pointUpdate, [markerTraceIndex]);
+          restyleHoverTrace(markerTraceIndex, pointUpdate);
         }
       });
     });
 
     el.on("plotly_unhover", function() {
-      restoreBaseState();
+      resetHoverStyles();
     });
 
     downloadChartButton.addEventListener("click", function() {
@@ -758,7 +794,7 @@
         format: "png",
         filename: imageBaseName,
         width: 1400,
-        height: 482
+        height: 430
       });
     });
 
