@@ -15,7 +15,7 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 730px;
+      height: 100vh;
       overflow: hidden;
       background: #ffffff;
     }
@@ -25,8 +25,9 @@
     }
     .embed-shell {
       width: 100%;
-      height: 730px;
+      height: 100vh;
       overflow: hidden;
+      box-sizing: border-box;
       display: flex;
       flex-direction: column;
     }
@@ -138,9 +139,9 @@
     .plotly-frame {
       width: 100%;
       overflow: hidden;
-      flex: 1 1 auto;
+      flex: 1 1 0;
       height: auto;
-      min-height: 240px;
+      min-height: 120px;
     }
     #plotly-root {
       width: 100%;
