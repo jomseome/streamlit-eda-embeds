@@ -15,7 +15,7 @@
       margin: 0;
       padding: 0;
       width: 100%;
-      height: 526px;
+      height: 580px;
       overflow: hidden;
       background: #ffffff;
     }
@@ -25,7 +25,7 @@
     }
     .embed-shell {
       width: 100%;
-      height: 526px;
+      height: 580px;
       overflow: hidden;
       display: flex;
       flex-direction: column;
@@ -185,7 +185,7 @@
 <body>
   <div class="embed-shell kossda-embed-root">
     <div class="kossda-chart-title">연령별 ‘쉬었음’ 인구 비율, 2018-2025</div>
-    <div class="embed-units kossda-unit-line">단위: y축 %</div>
+    <div class="embed-units kossda-unit-line">단위: %</div>
     
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="일과 직업 - 연령별 ‘쉬었음’ 인구 비율, 2018-2025"></div>
@@ -236,7 +236,7 @@
     let isHoveringPlot = false;
 
     function plotAreaSize() {
-      const fallbackHeight = Math.max(240, Number(526) - 128);
+      const fallbackHeight = Math.max(240, Number(580) - 128);
       const height = Math.max(
         240,
         Math.floor((plotArea && plotArea.clientHeight) || el.clientHeight || fallbackHeight)
@@ -900,7 +900,7 @@
         format: "png",
         filename: imageBaseName,
         width: 1400,
-        height: 526
+        height: 580
       });
     });
 
