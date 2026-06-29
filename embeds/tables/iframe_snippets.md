@@ -4,12 +4,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html" title="주요 인구 지표, 1960-2024" width="100%" height="612" style="display:block;width:100%;height:612px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html" title="주요 인구 지표, 1960-2024" width="100%" height="648" style="display:block;width:100%;height:648px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:612px;max-height:612px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="612" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html" style="display:block;width:100%;height:612px!important;border:0;overflow:hidden;" title="주요 인구 지표, 1960-2024" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:648px;max-height:648px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="648" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-1.html" style="display:block;width:100%;height:648px!important;border:0;overflow:hidden;" title="주요 인구 지표, 1960-2024" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 주요 가구 지표, 1970-2024
