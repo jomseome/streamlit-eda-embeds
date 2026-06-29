@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-29T00:33:52.986562+00:00",
+  "exportedAt": "2026-06-29T00:52:05.911355+00:00",
   "count": 114,
   "defaultHeight": 520,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -62,7 +62,8 @@
       "line_hover_mode": "line_and_point",
       "colored_idle": false,
       "idle_color_mix": 0.68,
-      "hover_highlight_color": ""
+      "hover_highlight_color": "",
+      "hover_color_factor": 0.68
     }
   },
   "variant": "article",
