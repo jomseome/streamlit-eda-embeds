@@ -155,17 +155,26 @@
     .embed-notes {
       flex: 0 0 auto;
       box-sizing: border-box;
-      padding: 2px 24px 0;
+      padding: 2px 20px 0;
       font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif;
-      font-size: 11px;
-      line-height: 1.45;
+      font-size: 10px;
+      line-height: 1.4;
       color: #111827;
     }
     .embed-notes p {
       margin: 0 0 2px;
     }
+    .embed-notes p.note-main {
+      padding-left: 2.4em;
+      text-indent: -2.4em;
+    }
     .embed-notes p.note-sub {
       padding-left: 1.45em;
+      text-indent: -1.45em;
+    }
+    .embed-notes p.note-source {
+      padding-left: 2.9em;
+      text-indent: -2.9em;
     }
     @media (max-width: 520px) {
       .kossda-chart-title {
@@ -199,7 +208,7 @@
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="정치와 시민사회 - 이념 성향별 정치 효능감, 2013-2024"></div>
     </div>
-    <div class="embed-notes"><p class="note-main">주: 1) ① “나와 같은 사람들은 정부가 하는 일에 어떠한 영향도 미칠 수 없다”, ② “정부는 나와 같은 사람들의 생각이나 의견에는</p><p class="note-main">관심이 없다”, ③ “나는 우리나라가 직면하고 있는 중요한 정치 현안에 대해서 잘 알고 있다”,</p><p class="note-main">④ “대부분의 사람들이 정치 현안과 정부가 하는 일에 대하여 나보다 더 잘 알고 있다”라는 네 가지 진술에 대해 ‘전혀 동의</p><p class="note-main">하지 않는다’ 를 1점으로 하고 ‘매우 동의한다’를 5점으로 한 응답 평균 점수임. ①, ②, ④ 진술은 역코딩을 함.</p><p class="note-sub">2) 2019년까지는 19-69세, 2020년부터는 19세 이상 인구를 대상으로 함.</p><p class="note-main">출처: 한국행정연구원, ｢사회통합실태조사｣.</p></div>
+    <div class="embed-notes"><p class="note-main">주: 1) ① “나와 같은 사람들은 정부가 하는 일에 어떠한 영향도 미칠 수 없다”, ② “정부는 나와 같은 사람들의 생각이나 의견에는 관심이 없다”, ③ “나는 우리나라가 직면하고 있는 중요한 정치 현안에 대해서 잘 알고 있다”, ④ “대부분의 사람들이 정치 현안과 정부가 하는 일에 대하여 나보다 더 잘 알고 있다”라는 네 가지 진술에 대해 ‘전혀 동의 하지 않는다’ 를 1점으로 하고 ‘매우 동의한다’를 5점으로 한 응답 평균 점수임. ①, ②, ④ 진술은 역코딩을 함.</p><p class="note-sub">2) 2019년까지는 19-69세, 2020년부터는 19세 이상 인구를 대상으로 함.</p><p class="note-source">출처: 한국행정연구원, ｢사회통합실태조사｣.</p></div>
     <div class="embed-toolbar kossda-embed-toolbar">
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>

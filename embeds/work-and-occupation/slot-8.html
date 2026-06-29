@@ -150,17 +150,26 @@
     .embed-notes {
       flex: 0 0 auto;
       box-sizing: border-box;
-      padding: 2px 24px 0;
+      padding: 2px 20px 0;
       font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif;
-      font-size: 11px;
-      line-height: 1.45;
+      font-size: 10px;
+      line-height: 1.4;
       color: #111827;
     }
     .embed-notes p {
       margin: 0 0 2px;
     }
+    .embed-notes p.note-main {
+      padding-left: 2.4em;
+      text-indent: -2.4em;
+    }
     .embed-notes p.note-sub {
       padding-left: 1.45em;
+      text-indent: -1.45em;
+    }
+    .embed-notes p.note-source {
+      padding-left: 2.9em;
+      text-indent: -2.9em;
     }
     @media (max-width: 520px) {
       .kossda-chart-title {
@@ -194,7 +203,7 @@
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="일과 직업 - 성 및 연령별 비정규직 근로자 비율, 2005-2025"></div>
     </div>
-    <div class="embed-notes"><p class="note-main">주: 1) 전체 임금근로자 중 비정규직 근로자의 비율임.</p><p class="note-main">출처: 국가데이터처, ｢경제활동인구조사｣.</p></div>
+    <div class="embed-notes"><p class="note-main">주: 1) 전체 임금근로자 중 비정규직 근로자의 비율임.</p><p class="note-source">출처: 국가데이터처, ｢경제활동인구조사｣.</p></div>
     <div class="embed-toolbar kossda-embed-toolbar">
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>

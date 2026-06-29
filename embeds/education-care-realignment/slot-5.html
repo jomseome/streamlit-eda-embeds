@@ -150,17 +150,26 @@
     .embed-notes {
       flex: 0 0 auto;
       box-sizing: border-box;
-      padding: 2px 24px 0;
+      padding: 2px 20px 0;
       font-family: 'Noto Sans KR', 'Apple SD Gothic Neo', 'Malgun Gothic', Arial, sans-serif;
-      font-size: 11px;
-      line-height: 1.45;
+      font-size: 10px;
+      line-height: 1.4;
       color: #111827;
     }
     .embed-notes p {
       margin: 0 0 2px;
     }
+    .embed-notes p.note-main {
+      padding-left: 2.4em;
+      text-indent: -2.4em;
+    }
     .embed-notes p.note-sub {
       padding-left: 1.45em;
+      text-indent: -1.45em;
+    }
+    .embed-notes p.note-source {
+      padding-left: 2.9em;
+      text-indent: -2.9em;
     }
     @media (max-width: 520px) {
       .kossda-chart-title {
@@ -194,7 +203,7 @@
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="교육과 돌봄 - 한국과 OECD 국가의 국제 학업성취도 평가(PISA) 결과, 2015, 2018, 2022"></div>
     </div>
-    <div class="embed-notes"><p class="note-main">출처: 교육부, “경제협력개발기구(OECD), 국제 학업성취도 평가(PISA) 2022 결과 발표”, 2023년 12월 5일 자 보도자료.</p></div>
+    <div class="embed-notes"><p class="note-source">출처: 교육부, “경제협력개발기구(OECD), 국제 학업성취도 평가(PISA) 2022 결과 발표”, 2023년 12월 5일 자 보도자료.</p></div>
     <div class="embed-toolbar kossda-embed-toolbar">
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
