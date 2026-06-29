@@ -237,7 +237,7 @@
     let isHoveringPlot = false;
 
     function plotAreaSize() {
-      const fallbackHeight = Math.max(240, Number(580) - 72);
+      const fallbackHeight = Math.max(240, Number(650) - 72);
       const height = Math.max(
         240,
         Math.floor((plotArea && plotArea.clientHeight) || el.clientHeight || fallbackHeight)
@@ -901,7 +901,7 @@
         format: "png",
         filename: imageBaseName,
         width: 1400,
-        height: 580
+        height: 650
       });
     });
 
