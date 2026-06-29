@@ -1,5 +1,5 @@
 {
-  "exportedAt": "2026-06-27T05:26:24.896373+00:00",
+  "exportedAt": "2026-06-28T23:58:36.571741+00:00",
   "count": 114,
   "defaultHeight": 580,
   "plotlyCdnUrl": "https://cdn.plot.ly/plotly-2.32.0.min.js",
@@ -63,9 +63,6 @@
       "colored_idle": false,
       "idle_color_mix": 0.68,
       "hover_highlight_color": ""
-    },
-    "units": {
-      "label": "단위"
     }
   },
   "variant": "data",
@@ -111,10 +108,7 @@
       "caption": "조혼인율과 조이혼율 및 합계출산율, 1970-2024",
       "renderer": "paper::individual-family-community::그림 1-3",
       "heightPx": 580,
-      "units": [
-        "명",
-        "인구 1000명당 명"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3-data.html\" title=\"조혼인율과 조이혼율 및 합계출산율, 1970-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -146,9 +140,7 @@
       "caption": "연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-5",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5-data.html\" title=\"연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -164,9 +156,7 @@
       "caption": "사회단체 유형별 참여율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6-data.html\" title=\"사회단체 유형별 참여율, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -182,9 +172,7 @@
       "caption": "지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023",
       "renderer": "paper::individual-family-community::그림 1-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7-data.html\" title=\"지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -200,9 +188,7 @@
       "caption": "OECD 국가의 사회적 고립 인구 비율, 2021",
       "renderer": "paper::individual-family-community::그림 1-8",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8-data.html\" title=\"OECD 국가의 사회적 고립 인구 비율, 2021\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -250,9 +236,7 @@
       "caption": "고립감을 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-11",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11-data.html\" title=\"고립감을 느끼는 인구의 비율, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -268,9 +252,7 @@
       "caption": "연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12-data.html\" title=\"연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -302,10 +284,7 @@
       "caption": "체류외국인 수와 미등록 체류외국인 비율, 1998-2024",
       "renderer": "paper::individual-family-community::그림 1-14",
       "heightPx": 580,
-      "units": [
-        "만 명",
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14-data.html\" title=\"체류외국인 수와 미등록 체류외국인 비율, 1998-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -369,9 +348,7 @@
       "caption": "외국인 이민자와 노동자에 대한 포용도, 2013-2024",
       "renderer": "paper::individual-family-community::그림 1-18",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-18-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18-data.html\" title=\"외국인 이민자와 노동자에 대한 포용도, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -387,9 +364,7 @@
       "caption": "반려동물 보유 인구 비율, 2010-2024",
       "renderer": "paper::individual-family-community::그림 1-19",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "individual-family-community/slot-19-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19-data.html\" title=\"반려동물 보유 인구 비율, 2010-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -421,9 +396,7 @@
       "caption": "이타주의와 이기주의에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-2",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-2-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-2-data.html\" title=\"이타주의와 이기주의에 대한 인식, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -439,9 +412,7 @@
       "caption": "공정성에 대한 인식, 2003-2025",
       "renderer": "paper::politics::그림 2-3",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-3-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-3-data.html\" title=\"공정성에 대한 인식, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -457,9 +428,7 @@
       "caption": "중앙정부에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-4",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-4-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-4-data.html\" title=\"중앙정부에 대한 신뢰, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -475,9 +444,7 @@
       "caption": "대통령실에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-5",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-5-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-5-data.html\" title=\"대통령실에 대한 신뢰, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -493,9 +460,7 @@
       "caption": "국회에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-6-data.html\" title=\"국회에 대한 신뢰, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -511,9 +476,7 @@
       "caption": "대법원에 대한 신뢰, 2003-2025",
       "renderer": "paper::politics::그림 2-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-7-data.html\" title=\"대법원에 대한 신뢰, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -545,9 +508,7 @@
       "caption": "선거 투표율, 1987-2025",
       "renderer": "paper::politics::그림 2-9",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-9-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-9-data.html\" title=\"선거 투표율, 1987-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -563,9 +524,7 @@
       "caption": "비선거적 정치 참여율, 2013-2024",
       "renderer": "paper::politics::그림 2-10",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-10-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-10-data.html\" title=\"비선거적 정치 참여율, 2013-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -581,9 +540,7 @@
       "caption": "무당파의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-11",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-11-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-11-data.html\" title=\"무당파의 이념 성향별 비율, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -599,9 +556,7 @@
       "caption": "진보 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-12-data.html\" title=\"진보 정당 지지자의 이념 성향별 비율, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -617,9 +572,7 @@
       "caption": "보수 정당 지지자의 이념 성향별 비율, 2003-2025",
       "renderer": "paper::politics::그림 2-13",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "politics/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-13-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/politics/slot-13-data.html\" title=\"보수 정당 지지자의 이념 성향별 비율, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -699,9 +652,7 @@
       "caption": "한국과 OECD 국가의 교육단계별 GDP 대비 공교육비 비율, 2022",
       "renderer": "paper::education-care-realignment::그림 3-4",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-4-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-4-data.html\" title=\"한국과 OECD 국가의 교육단계별 GDP 대비 공교육비 비율, 2022\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -733,9 +684,7 @@
       "caption": "한국과 OECD 국가의 PISA 수학 점수 분산 비율, 2012, 2022",
       "renderer": "paper::education-care-realignment::그림 3-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-6-data.html\" title=\"한국과 OECD 국가의 PISA 수학 점수 분산 비율, 2012, 2022\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -783,9 +732,7 @@
       "caption": "초·중·고 학교에 대한 평가, 2024",
       "renderer": "paper::education-care-realignment::그림 3-9",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-9-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-9-data.html\" title=\"초·중·고 학교에 대한 평가, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -801,10 +748,7 @@
       "caption": "OECD 주요국 학생의 학업 관련 불안감, 2015",
       "renderer": "paper::education-care-realignment::그림 3-10",
       "heightPx": 580,
-      "units": [
-        "%",
-        "점"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-10-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-10-data.html\" title=\"OECD 주요국 학생의 학업 관련 불안감, 2015\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -836,9 +780,7 @@
       "caption": "교육수준별 전공-직업 일치도, 2000-2024",
       "renderer": "paper::education-care-realignment::그림 3-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-12-data.html\" title=\"교육수준별 전공-직업 일치도, 2000-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -854,9 +796,7 @@
       "caption": "보육 및 유아교육 기관 만족도, 2015-2024",
       "renderer": "paper::education-care-realignment::그림 3-13",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-13-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-13-data.html\" title=\"보육 및 유아교육 기관 만족도, 2015-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -872,9 +812,7 @@
       "caption": "주요국 학생의 학교 밖 신체활동 미참여율, 2015",
       "renderer": "paper::education-care-realignment::그림 3-14",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-14-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-14-data.html\" title=\"주요국 학생의 학교 밖 신체활동 미참여율, 2015\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -890,9 +828,7 @@
       "caption": "OECD 주요국의 GDP 대비 보육 및 유아교육 공공지출 비율, 2019",
       "renderer": "paper::education-care-realignment::그림 3-15",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "education-care-realignment/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-15-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/education-care-realignment/slot-15-data.html\" title=\"OECD 주요국의 GDP 대비 보육 및 유아교육 공공지출 비율, 2019\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -924,9 +860,7 @@
       "caption": "성별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-2",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-2-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-2-data.html\" title=\"성별 경제활동참가율, 2000-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -942,9 +876,7 @@
       "caption": "연령별 경제활동참가율, 2000-2024",
       "renderer": "paper::work-and-occupation::그림 4-3",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-3-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-3-data.html\" title=\"연령별 경제활동참가율, 2000-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1008,9 +940,7 @@
       "caption": "비정규직 근로자 비율, 2003-2025",
       "renderer": "paper::work-and-occupation::그림 4-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-7-data.html\" title=\"비정규직 근로자 비율, 2003-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1026,9 +956,7 @@
       "caption": "성 및 연령별 비정규직 근로자 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-8",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-8-data.html\" title=\"성 및 연령별 비정규직 근로자 비율, 2005-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1044,9 +972,7 @@
       "caption": "신규 채용 임금근로자의 일자리 특성별 비율, 2005-2025",
       "renderer": "paper::work-and-occupation::그림 4-9",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-9-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-9-data.html\" title=\"신규 채용 임금근로자의 일자리 특성별 비율, 2005-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1062,9 +988,7 @@
       "caption": "단시간 근로자와 초단시간 근로자 비율, 2000-2025",
       "renderer": "paper::work-and-occupation::그림 4-10",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-10-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-10-data.html\" title=\"단시간 근로자와 초단시간 근로자 비율, 2000-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1080,9 +1004,7 @@
       "caption": "성별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-11",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-11-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-11-data.html\" title=\"성별 ‘쉬었음’ 인구 비율, 2018-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1098,9 +1020,7 @@
       "caption": "연령별 ‘쉬었음’ 인구 비율, 2018-2025",
       "renderer": "paper::work-and-occupation::그림 4-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "work-and-occupation/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/work-and-occupation/slot-12-data.html\" title=\"연령별 ‘쉬었음’ 인구 비율, 2018-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1116,9 +1036,7 @@
       "caption": "소득분위별 소득비, 2024",
       "renderer": "paper::economy-living-standards::그림 5-1",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-1-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-1-data.html\" title=\"소득분위별 소득비, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1182,9 +1100,7 @@
       "caption": "가구주 교육수준별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-5",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-5-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-5-data.html\" title=\"가구주 교육수준별 소득비, 2016, 2020, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1200,9 +1116,7 @@
       "caption": "가구주 직업별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-6-data.html\" title=\"가구주 직업별 소득비, 2016, 2020, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1218,9 +1132,7 @@
       "caption": "가구주 종사상지위별 소득비, 2016, 2020, 2024",
       "renderer": "paper::economy-living-standards::그림 5-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-7-data.html\" title=\"가구주 종사상지위별 소득비, 2016, 2020, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1236,9 +1148,7 @@
       "caption": "소득분위별 경상소득 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-8",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-8-data.html\" title=\"소득분위별 경상소득 구성 비율, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1254,9 +1164,7 @@
       "caption": "소득분위별 경상소득 대비 근로소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-9",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-9-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-9-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-9-data.html\" title=\"소득분위별 경상소득 대비 근로소득 비율, 2016-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1272,9 +1180,7 @@
       "caption": "소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024",
       "renderer": "paper::economy-living-standards::그림 5-10",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-10-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-10-data.html\" title=\"소득분위별 경상소득 대비 공적이전소득 비율, 2016-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1290,9 +1196,7 @@
       "caption": "가구주 연령별 소득원천 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-11",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-11-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-11-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-11-data.html\" title=\"가구주 연령별 소득원천 구성 비율, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1308,9 +1212,7 @@
       "caption": "소득분위별 자산비와 부채비, 2025",
       "renderer": "paper::economy-living-standards::그림 5-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-12-data.html\" title=\"소득분위별 자산비와 부채비, 2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1326,10 +1228,7 @@
       "caption": "소득분위별 월평균 소비지출액과 소비지출비, 2024",
       "renderer": "paper::economy-living-standards::그림 5-13",
       "heightPx": 580,
-      "units": [
-        "만 원",
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-13-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-13-data.html\" title=\"소득분위별 월평균 소비지출액과 소비지출비, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1345,9 +1244,7 @@
       "caption": "소득분위별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-14",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-14-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-14-data.html\" title=\"소득분위별 소비지출 구성 비율, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1363,9 +1260,7 @@
       "caption": "가구주 연령별 소비지출 구성 비율, 2024",
       "renderer": "paper::economy-living-standards::그림 5-15",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "economy-living-standards/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-15-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/economy-living-standards/slot-15-data.html\" title=\"가구주 연령별 소비지출 구성 비율, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1381,9 +1276,7 @@
       "caption": "인터넷뱅킹 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-1",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-1-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-1-data.html\" title=\"인터넷뱅킹 이용률, 2020-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1399,9 +1292,7 @@
       "caption": "인공지능 서비스 인지율과 경험률, 2021-2025",
       "renderer": "paper::technology-information::그림 6-2",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-2-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-2-data.html\" title=\"인공지능 서비스 인지율과 경험률, 2021-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1417,9 +1308,7 @@
       "caption": "생성형 인공지능 서비스 경험률, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-3",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-3-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-3-data.html\" title=\"생성형 인공지능 서비스 경험률, 2023, 2024, 2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1435,9 +1324,7 @@
       "caption": "생성형 인공지능 서비스 이용 목적, 2023, 2024",
       "renderer": "paper::technology-information::그림 6-4",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-4-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-4-data.html\" title=\"생성형 인공지능 서비스 이용 목적, 2023, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1453,9 +1340,7 @@
       "caption": "인공지능 서비스의 효용성에 대한 인식, 2021, 2022",
       "renderer": "paper::technology-information::그림 6-5",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-5-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-5-data.html\" title=\"인공지능 서비스의 효용성에 대한 인식, 2021, 2022\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1471,9 +1356,7 @@
       "caption": "인공지능 서비스의 사회적 영향에 대한 인식, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-6-data.html\" title=\"인공지능 서비스의 사회적 영향에 대한 인식, 2023, 2024, 2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1489,9 +1372,7 @@
       "caption": "SNS 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-7-data.html\" title=\"SNS 이용률, 2020-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1507,9 +1388,7 @@
       "caption": "정보 검색 시 주로 이용하는 플랫폼, 2023, 2024, 2025",
       "renderer": "paper::technology-information::그림 6-8",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-8-data.html\" title=\"정보 검색 시 주로 이용하는 플랫폼, 2023, 2024, 2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1541,9 +1420,7 @@
       "caption": "인터넷쇼핑 이용률, 2020-2025",
       "renderer": "paper::technology-information::그림 6-10",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-10-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-10-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-10-data.html\" title=\"인터넷쇼핑 이용률, 2020-2025\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1575,9 +1452,7 @@
       "caption": "일반 국민과 고령층의 인공지능 서비스 경험률, 2023, 2024",
       "renderer": "paper::technology-information::그림 6-12",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-12-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-12-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-12-data.html\" title=\"일반 국민과 고령층의 인공지능 서비스 경험률, 2023, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1593,9 +1468,7 @@
       "caption": "연령별 생성형 인공지능 서비스 경험률, 2024",
       "renderer": "paper::technology-information::그림 6-13",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-13-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-13-data.html\" title=\"연령별 생성형 인공지능 서비스 경험률, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1611,9 +1484,7 @@
       "caption": "교육수준별 생성형 인공지능 서비스 경험률, 2024",
       "renderer": "paper::technology-information::그림 6-14",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "technology-information/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-14-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/technology-information/slot-14-data.html\" title=\"교육수준별 생성형 인공지능 서비스 경험률, 2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1629,10 +1500,7 @@
       "caption": "한국의 연평균 기온과 극한기후 발생 일수, 1981-2024",
       "renderer": "paper::energy-environment::그림 7-1",
       "heightPx": 580,
-      "units": [
-        "℃",
-        "일"
-      ],
+      "units": [],
       "path": "energy-environment/slot-1-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-1-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-1-data.html\" title=\"한국의 연평균 기온과 극한기후 발생 일수, 1981-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1648,9 +1516,7 @@
       "caption": "부문별 온실가스 배출량 비율, 1990-2023",
       "renderer": "paper::energy-environment::그림 7-2",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-2-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-2-data.html\" title=\"부문별 온실가스 배출량 비율, 1990-2023\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1666,9 +1532,7 @@
       "caption": "산업 부문 업종별 온실가스 배출량 비율, 1998, 2023",
       "renderer": "paper::energy-environment::그림 7-3",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-3-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-3-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-3-data.html\" title=\"산업 부문 업종별 온실가스 배출량 비율, 1998, 2023\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1700,9 +1564,7 @@
       "caption": "에너지원별 발전량 비율, 2017-2024",
       "renderer": "paper::energy-environment::그림 7-5",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-5-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-5-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-5-data.html\" title=\"에너지원별 발전량 비율, 2017-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1718,9 +1580,7 @@
       "caption": "재생에너지원별 발전량 비율, 2018-2024",
       "renderer": "paper::energy-environment::그림 7-6",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-6-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-6-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-6-data.html\" title=\"재생에너지원별 발전량 비율, 2018-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1736,9 +1596,7 @@
       "caption": "에너지 수입 의존도와 석유 의존도, 1995-2024",
       "renderer": "paper::energy-environment::그림 7-7",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-7-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-7-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-7-data.html\" title=\"에너지 수입 의존도와 석유 의존도, 1995-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1754,10 +1612,7 @@
       "caption": "전국 및 수도권 데이터센터 전력 사용량과 수도권 사용량 비율, 2021, 2022, 2023",
       "renderer": "paper::energy-environment::그림 7-8",
       "heightPx": 580,
-      "units": [
-        "만 MWh",
-        "%"
-      ],
+      "units": [],
       "path": "energy-environment/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/energy-environment/slot-8-data.html\" title=\"전국 및 수도권 데이터센터 전력 사용량과 수도권 사용량 비율, 2021, 2022, 2023\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1789,9 +1644,7 @@
       "caption": "지역별 주택보급률, 2010-2024",
       "renderer": "paper::space-region::그림 8-2",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-2-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-2-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-2-data.html\" title=\"지역별 주택보급률, 2010-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1823,9 +1676,7 @@
       "caption": "지역별 자가소유율, 2015-2024",
       "renderer": "paper::space-region::그림 8-4",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-4-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-4-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-4-data.html\" title=\"지역별 자가소유율, 2015-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1889,9 +1740,7 @@
       "caption": "지역별 월소득 대비 주택임대료 비율(RIR), 2006-2024",
       "renderer": "paper::space-region::그림 8-8",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-8-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-8-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-8-data.html\" title=\"지역별 월소득 대비 주택임대료 비율(RIR), 2006-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1971,9 +1820,7 @@
       "caption": "지역별 최저주거기준 미달 가구 비율, 2016-2024",
       "renderer": "paper::space-region::그림 8-13",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-13-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-13-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-13-data.html\" title=\"지역별 최저주거기준 미달 가구 비율, 2016-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -1989,9 +1836,7 @@
       "caption": "지역별 지하·반지하·옥탑방 거주 가구 비율, 2010, 2015, 2020",
       "renderer": "paper::space-region::그림 8-14",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-14-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-14-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-14-data.html\" title=\"지역별 지하·반지하·옥탑방 거주 가구 비율, 2010, 2015, 2020\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -2007,9 +1852,7 @@
       "caption": "미분양 주택의 수도권과 비수도권 분포 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-15",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-15-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-15-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-15-data.html\" title=\"미분양 주택의 수도권과 비수도권 분포 비율, 2010-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -2025,9 +1868,7 @@
       "caption": "전국 빈집 수와 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-16",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-16-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-16-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-16-data.html\" title=\"전국 빈집 수와 비율, 2010-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
@@ -2043,9 +1884,7 @@
       "caption": "수도권과 비수도권의 빈집 비율, 2010-2024",
       "renderer": "paper::space-region::그림 8-17",
       "heightPx": 580,
-      "units": [
-        "%"
-      ],
+      "units": [],
       "path": "space-region/slot-17-data.html",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-17-data.html",
       "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/space-region/slot-17-data.html\" title=\"수도권과 비수도권의 빈집 비율, 2010-2024\" width=\"100%\" height=\"580\" style=\"border:0;\" loading=\"lazy\"></iframe>",
