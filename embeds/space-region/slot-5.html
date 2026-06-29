@@ -160,10 +160,14 @@
       margin: 0 0 2px;
     }
     .embed-notes p.note-main {
-      padding-left: 3.4em;
-      text-indent: -3.4em;
+      padding-left: 0;
+      text-indent: 0;
     }
-    .embed-notes p.note-sub {
+    .embed-notes p.note-label {
+      padding-left: 0;
+      text-indent: 0;
+    }
+    .embed-notes p.note-item {
       padding-left: 1.7em;
       text-indent: -1.7em;
     }
@@ -203,7 +207,7 @@
     <div class="plotly-frame kossda-plot-area">
       <div id="plotly-root" aria-label="공간과 지역 - 지역별 주택 매매가격지수, 2010.1-2025.12"></div>
     </div>
-    <div class="embed-notes"><p class="note-main">주: 1) 2022년 1월 주택 매매가격을 100으로 한 지수임. 주택에는 아파트, 단독주택, 연립주택이 포함됨.</p><p class="note-sub">2) 수도권에는 서울, 인천, 경기가 포함되고, 5개 광역시에는 부산, 대구, 광주, 대전, 울산이 포함됨. 기타 지방은 수도권과 5개 광역시를 제외한 지역임.</p><p class="note-source">출처: KB국민은행, ｢주택가격동향조사｣.</p></div>
+    <div class="embed-notes"><p class="note-label">주:</p><p class="note-item">1) 2022년 1월 주택 매매가격을 100으로 한 지수임. 주택에는 아파트, 단독주택, 연립주택이 포함됨.</p><p class="note-item">2) 수도권에는 서울, 인천, 경기가 포함되고, 5개 광역시에는 부산, 대구, 광주, 대전, 울산이 포함됨. 기타 지방은 수도권과 5개 광역시를 제외한 지역임.</p><p class="note-source">출처: KB국민은행, ｢주택가격동향조사｣.</p></div>
     <div class="embed-toolbar kossda-embed-toolbar">
       <div class="embed-actions">
         <button id="download-chart" class="embed-button" type="button">그래프 PNG 다운로드</button>
