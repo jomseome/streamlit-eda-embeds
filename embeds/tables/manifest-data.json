@@ -26,12 +26,12 @@
       "sourceWorkbook": "1 개인 가족 공동체.xlsx",
       "sourceSheet": "표 1-2",
       "page": "015",
-      "heightPx": 509,
+      "heightPx": 537,
       "path": "tables/table-1-2-data.html",
       "dataPath": "tables/data/주요-가구-지표,-1970-2024.xlsx",
       "publicUrl": "https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html",
-      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html\" title=\"주요 가구 지표, 1970-2024\" width=\"100%\" height=\"509\" style=\"display:block;width:100%;height:509px!important;border:0;overflow:hidden;\" scrolling=\"no\" loading=\"lazy\"></iframe>",
-      "imwebHtml": "<div style=\"width:100%;height:509px;max-height:509px;margin:0;overflow:hidden;clear:both;\">\n  <iframe allowfullscreen=\"\" height=\"509\" scrolling=\"no\" src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html\" style=\"display:block;width:100%;height:509px!important;border:0;overflow:hidden;\" title=\"주요 가구 지표, 1970-2024\" width=\"100%\" loading=\"lazy\"></iframe>\n</div>",
+      "iframe": "<iframe src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html\" title=\"주요 가구 지표, 1970-2024\" width=\"100%\" height=\"537\" style=\"display:block;width:100%;height:537px!important;border:0;overflow:hidden;\" scrolling=\"no\" loading=\"lazy\"></iframe>",
+      "imwebHtml": "<div style=\"width:100%;height:537px;max-height:537px;margin:0;overflow:hidden;clear:both;\">\n  <iframe allowfullscreen=\"\" height=\"537\" scrolling=\"no\" src=\"https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html\" style=\"display:block;width:100%;height:537px!important;border:0;overflow:hidden;\" title=\"주요 가구 지표, 1970-2024\" width=\"100%\" loading=\"lazy\"></iframe>\n</div>",
       "variant": "data"
     },
     {

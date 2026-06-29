@@ -16,12 +16,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" title="주요 가구 지표, 1970-2024" width="100%" height="509" style="display:block;width:100%;height:509px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" title="주요 가구 지표, 1970-2024" width="100%" height="537" style="display:block;width:100%;height:537px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:509px;max-height:509px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="509" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" style="display:block;width:100%;height:509px!important;border:0;overflow:hidden;" title="주요 가구 지표, 1970-2024" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:537px;max-height:537px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="537" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" style="display:block;width:100%;height:537px!important;border:0;overflow:hidden;" title="주요 가구 지표, 1970-2024" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 시도별 초등학교 1학년 늘봄학교 참여율, 2024
