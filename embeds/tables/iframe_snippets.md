@@ -40,12 +40,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" height="474" style="display:block;width:100%;height:474px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" height="730" style="display:block;width:100%;height:730px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:474px;max-height:474px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="474" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html" style="display:block;width:100%;height:474px!important;border:0;overflow:hidden;" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:730px;max-height:730px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="730" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1.html" style="display:block;width:100%;height:730px!important;border:0;overflow:hidden;" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 임금근로자 유형별 사회보험 가입률, 2025
