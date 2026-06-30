@@ -16,12 +16,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" title="주요 가구 지표, 1970-2024" width="100%" height="537" style="display:block;width:100%;height:537px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" title="주요 가구 지표, 1970-2024" width="100%" height="585" style="display:block;width:100%;height:585px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:537px;max-height:537px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="537" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" style="display:block;width:100%;height:537px!important;border:0;overflow:hidden;" title="주요 가구 지표, 1970-2024" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:585px;max-height:585px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="585" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-1-2-data.html" style="display:block;width:100%;height:585px!important;border:0;overflow:hidden;" title="주요 가구 지표, 1970-2024" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 시도별 초등학교 1학년 늘봄학교 참여율, 2024
@@ -40,12 +40,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1-data.html" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" height="502" style="display:block;width:100%;height:502px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1-data.html" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" height="474" style="display:block;width:100%;height:474px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:502px;max-height:502px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="502" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1-data.html" style="display:block;width:100%;height:502px!important;border:0;overflow:hidden;" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:474px;max-height:474px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="474" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-4-1-data.html" style="display:block;width:100%;height:474px!important;border:0;overflow:hidden;" title="임금근로자 유형별 일자리 특성, 2015, 2025" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 임금근로자 유형별 사회보험 가입률, 2025
@@ -88,12 +88,12 @@
 
 ### iframe
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2-data.html" title="소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024" width="100%" height="297" style="display:block;width:100%;height:297px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2-data.html" title="소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024" width="100%" height="273" style="display:block;width:100%;height:273px!important;border:0;overflow:hidden;" scrolling="no" loading="lazy"></iframe>
 
 ### Imweb wrapper
 
-<div style="width:100%;height:297px;max-height:297px;margin:0;overflow:hidden;clear:both;">
-  <iframe allowfullscreen="" height="297" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2-data.html" style="display:block;width:100%;height:297px!important;border:0;overflow:hidden;" title="소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024" width="100%" loading="lazy"></iframe>
+<div style="width:100%;height:273px;max-height:273px;margin:0;overflow:hidden;clear:both;">
+  <iframe allowfullscreen="" height="273" scrolling="no" src="https://jomseome.github.io/streamlit-eda-embeds/embeds/tables/table-5-2-data.html" style="display:block;width:100%;height:273px!important;border:0;overflow:hidden;" title="소득분위별 비소비지출 금액과 경상소득 대비 비소비지출 비율, 2024" width="100%" loading="lazy"></iframe>
 </div>
 
 ## 자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024

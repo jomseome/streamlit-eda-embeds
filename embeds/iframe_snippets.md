@@ -2,79 +2,79 @@
 
 ## 인구의 성 및 연령별 구성, 1960, 2025
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-1.html" title="인구의 성 및 연령별 구성, 1960, 2025" width="100%" height="620" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-1.html" title="인구의 성 및 연령별 구성, 1960, 2025" width="100%" height="680" style="border:0;" loading="lazy"></iframe>
 
 ## 청년층과 중장년층의 수도권 전출입 인구, 2004-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-2.html" title="청년층과 중장년층의 수도권 전출입 인구, 2004-2024" width="100%" height="620" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-2.html" title="청년층과 중장년층의 수도권 전출입 인구, 2004-2024" width="100%" height="680" style="border:0;" loading="lazy"></iframe>
 
 ## 조혼인율과 조이혼율 및 합계출산율, 1970-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3.html" title="조혼인율과 조이혼율 및 합계출산율, 1970-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-3.html" title="조혼인율과 조이혼율 및 합계출산율, 1970-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 위기 시 도움받을 사람이 없는 인구의 비율, 2009-2025
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-4.html" title="위기 시 도움받을 사람이 없는 인구의 비율, 2009-2025" width="100%" height="640" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-4.html" title="위기 시 도움받을 사람이 없는 인구의 비율, 2009-2025" width="100%" height="740" style="border:0;" loading="lazy"></iframe>
 
 ## 연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5.html" title="연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-5.html" title="연령별 아플 때 도움받을 사람이 없는 인구의 비율, 2013-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 사회단체 유형별 참여율, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6.html" title="사회단체 유형별 참여율, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-6.html" title="사회단체 유형별 참여율, 2013-2024" width="100%" height="750" style="border:0;" loading="lazy"></iframe>
 
 ## 지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7.html" title="지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-7.html" title="지난 1년간 가장 적극적으로 참여한 조직, 2012, 2023" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## OECD 국가의 사회적 고립 인구 비율, 2021
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8.html" title="OECD 국가의 사회적 고립 인구 비율, 2021" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-8.html" title="OECD 국가의 사회적 고립 인구 비율, 2021" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 정서 경험과 삶의 만족도, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-9.html" title="정서 경험과 삶의 만족도, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-9.html" title="정서 경험과 삶의 만족도, 2013-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 연령별 삶의 만족도, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-10.html" title="연령별 삶의 만족도, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-10.html" title="연령별 삶의 만족도, 2013-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 고립감을 느끼는 인구의 비율, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11.html" title="고립감을 느끼는 인구의 비율, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-11.html" title="고립감을 느끼는 인구의 비율, 2013-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12.html" title="연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-12.html" title="연령별 ‘외롭다’고 느끼는 인구의 비율, 2013-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## OECD 주요국의 행복지수, 2011-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-13.html" title="OECD 주요국의 행복지수, 2011-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-13.html" title="OECD 주요국의 행복지수, 2011-2024" width="100%" height="740" style="border:0;" loading="lazy"></iframe>
 
 ## 체류외국인 수와 미등록 체류외국인 비율, 1998-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14.html" title="체류외국인 수와 미등록 체류외국인 비율, 1998-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-14.html" title="체류외국인 수와 미등록 체류외국인 비율, 1998-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 체류 자격별 취업자(외국인) 수, 2012-2025
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-15.html" title="체류 자격별 취업자(외국인) 수, 2012-2025" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-15.html" title="체류 자격별 취업자(외국인) 수, 2012-2025" width="100%" height="740" style="border:0;" loading="lazy"></iframe>
 
 ## 한국인 남편과 외국인 아내 혼인 건수, 1993-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-16.html" title="한국인 남편과 외국인 아내 혼인 건수, 1993-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-16.html" title="한국인 남편과 외국인 아내 혼인 건수, 1993-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 체류 유형별 외국인 분포, 2019
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-17.html" title="체류 유형별 외국인 분포, 2019" width="100%" height="800" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-17.html" title="체류 유형별 외국인 분포, 2019" width="100%" height="700" style="border:0;" loading="lazy"></iframe>
 
 ## 외국인 이민자와 노동자에 대한 포용도, 2013-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18.html" title="외국인 이민자와 노동자에 대한 포용도, 2013-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-18.html" title="외국인 이민자와 노동자에 대한 포용도, 2013-2024" width="100%" height="740" style="border:0;" loading="lazy"></iframe>
 
 ## 반려동물 보유 인구 비율, 2010-2024
 
-<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19.html" title="반려동물 보유 인구 비율, 2010-2024" width="100%" height="650" style="border:0;" loading="lazy"></iframe>
+<iframe src="https://jomseome.github.io/streamlit-eda-embeds/embeds/individual-family-community/slot-19.html" title="반려동물 보유 인구 비율, 2010-2024" width="100%" height="720" style="border:0;" loading="lazy"></iframe>
 
 ## 일반 신뢰, 2004-2025
 
