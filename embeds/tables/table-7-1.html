@@ -21,25 +21,29 @@
       background: #fff;
       overflow: hidden;
     }
-    .toolbar {
-      display: flex;
-      justify-content: flex-start;
-      margin-top: 10px;
-      padding-left: 4px;
-    }
     .download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      min-height: 28px;
+      flex: 0 0 auto;
       border: 1px solid #536B9D;
       color: #293F73;
       background: #fff;
       border-radius: 999px;
       padding: 6px 12px;
       font: 700 12px "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.2;
       text-decoration: none;
+      white-space: nowrap;
     }
     .heading {
       display: flex;
+      justify-content: space-between;
+      gap: 12px;
       align-items: center;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
       font-weight: 700;
       padding-left: 4px;
     }
@@ -110,6 +114,9 @@
         padding-left: 12px;
         padding-right: 12px;
       }
+      .heading {
+        flex-wrap: wrap;
+      }
       table {
         min-width: 640px;
         font-size: 12px;
@@ -122,7 +129,7 @@
 </head>
 <body>
   <main class="shell">
-    <div class="heading"><span class="title">자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024</span></div>
+    <div class="heading"><span class="title">자연재해 원인별 피해액 비율과 사망자 비율, 2020-2024</span><a class="download" href="data/자연재해-원인별-피해액-비율과-사망자-비율,-2020-2024.xlsx" download="자연재해-원인별-피해액-비율과-사망자-비율,-2020-2024.xlsx">데이터 다운로드</a></div>
     
       <div class="table-wrap">
         <table>
@@ -133,7 +140,6 @@
       </div>
       <div class="notes"><p class="note-label">주:</p><p class="note-item">1) 피해액 비율 = (재해 원인별 피해액 ÷ 전체 피해액) × 100. 피해액은 공공과 민간의 재산 피해 복구 비용을 포함한 직접 경제적 손실을 기준으로 하며, 간접손실(생산성 저하, 보험 미반영 손실 등)은 포함되지 않음.</p><p class="note-item">2) 사망자 비율 = (재해 원인별 사망자 수 ÷ 전체 사망자 수) × 100.</p><p class="note-source">출처: 행정안전부, ｢자연재해현황｣.</p></div>
     
-    <div class="toolbar"><a class="download" href="data/자연재해-원인별-피해액-비율과-사망자-비율,-2020-2024.xlsx" download="자연재해-원인별-피해액-비율과-사망자-비율,-2020-2024.xlsx">데이터 다운로드</a></div>
   </main>
 </body>
 </html>

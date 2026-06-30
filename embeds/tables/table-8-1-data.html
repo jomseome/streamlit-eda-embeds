@@ -21,25 +21,29 @@
       background: #fff;
       overflow: hidden;
     }
-    .toolbar {
-      display: flex;
-      justify-content: flex-start;
-      margin-top: 10px;
-      padding-left: 4px;
-    }
     .download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      min-height: 28px;
+      flex: 0 0 auto;
       border: 1px solid #536B9D;
       color: #293F73;
       background: #fff;
       border-radius: 999px;
       padding: 6px 12px;
       font: 700 12px "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.2;
       text-decoration: none;
+      white-space: nowrap;
     }
     .heading {
       display: flex;
+      justify-content: space-between;
+      gap: 12px;
       align-items: center;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
       font-weight: 700;
       padding-left: 4px;
     }
@@ -110,6 +114,9 @@
         padding-left: 12px;
         padding-right: 12px;
       }
+      .heading {
+        flex-wrap: wrap;
+      }
       table {
         min-width: 640px;
         font-size: 12px;
@@ -122,7 +129,7 @@
 </head>
 <body>
   <main class="shell">
-    <div class="heading"><span class="title">지역별 주택 수와 가구 수, 2015-2024</span></div>
+    <div class="heading"><span class="title">지역별 주택 수와 가구 수, 2015-2024</span><a class="download" href="data/지역별-주택-수와-가구-수,-2015-2024.xlsx" download="지역별-주택-수와-가구-수,-2015-2024.xlsx">데이터 다운로드</a></div>
     
       <div class="table-wrap">
         <table>
@@ -133,7 +140,6 @@
       </div>
       <div class="notes"><p class="note-label">주:</p><p class="note-item">1) 주택 수에는 다가구주택 구분거처가 각호로 포함됨.</p><p class="note-item">2) 수도권에는 서울, 인천, 경기가 포함되고, 비수도권에는 부산, 대구, 광주, 대전, 울산, 세종, 강원, 충북, 충남, 전북, 전남, 경북, 경남, 제주가 포함됨.</p><p class="note-source">출처: 국토교통부, ｢주택보급률｣.</p></div>
     
-    <div class="toolbar"><a class="download" href="data/지역별-주택-수와-가구-수,-2015-2024.xlsx" download="지역별-주택-수와-가구-수,-2015-2024.xlsx">데이터 다운로드</a></div>
   </main>
 </body>
 </html>

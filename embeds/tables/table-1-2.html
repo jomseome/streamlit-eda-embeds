@@ -21,25 +21,29 @@
       background: #fff;
       overflow: hidden;
     }
-    .toolbar {
-      display: flex;
-      justify-content: flex-start;
-      margin-top: 10px;
-      padding-left: 4px;
-    }
     .download {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      min-height: 28px;
+      flex: 0 0 auto;
       border: 1px solid #536B9D;
       color: #293F73;
       background: #fff;
       border-radius: 999px;
       padding: 6px 12px;
       font: 700 12px "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.2;
       text-decoration: none;
+      white-space: nowrap;
     }
     .heading {
       display: flex;
+      justify-content: space-between;
+      gap: 12px;
       align-items: center;
-      margin-bottom: 4px;
+      margin-bottom: 8px;
       font-weight: 700;
       padding-left: 4px;
     }
@@ -110,6 +114,9 @@
         padding-left: 12px;
         padding-right: 12px;
       }
+      .heading {
+        flex-wrap: wrap;
+      }
       table {
         min-width: 640px;
         font-size: 12px;
@@ -122,7 +129,7 @@
 </head>
 <body>
   <main class="shell">
-    <div class="heading"><span class="title">주요 가구 지표, 1970-2024</span></div>
+    <div class="heading"><span class="title">주요 가구 지표, 1970-2024</span><a class="download" href="data/주요-가구-지표,-1970-2024.xlsx" download="주요-가구-지표,-1970-2024.xlsx">데이터 다운로드</a></div>
     
       <div class="table-wrap">
         <table>
@@ -133,7 +140,6 @@
       </div>
       <div class="notes"><p class="note-label">주:</p><p class="note-item">1) 일반가구 기준임.</p><p class="note-item">2) 평균 가구원 수 = 일반가구 가구원 수 ÷ 일반가구 수.</p><p class="note-item">3) 비친족 가구는 시설 등에 집단으로 거주하는 가구를 제외한 일반가구 중 친족이 아닌 남남으로 구성된 5인 이하 가구임.</p><p class="note-source">출처: 국가데이터처, 「인구총조사」.</p></div>
     
-    <div class="toolbar"><a class="download" href="data/주요-가구-지표,-1970-2024.xlsx" download="주요-가구-지표,-1970-2024.xlsx">데이터 다운로드</a></div>
   </main>
 </body>
 </html>
