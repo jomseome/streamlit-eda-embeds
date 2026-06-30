@@ -21,29 +21,25 @@
       background: #fff;
       overflow: hidden;
     }
+    .toolbar {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 10px;
+      padding-left: 4px;
+    }
     .download {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      box-sizing: border-box;
-      min-height: 28px;
-      flex: 0 0 auto;
       border: 1px solid #536B9D;
       color: #293F73;
       background: #fff;
       border-radius: 999px;
       padding: 6px 12px;
       font: 700 12px "Apple SD Gothic Neo", sans-serif;
-      line-height: 1.2;
       text-decoration: none;
-      white-space: nowrap;
     }
     .heading {
       display: flex;
-      justify-content: space-between;
-      gap: 12px;
       align-items: center;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
       font-weight: 700;
       padding-left: 4px;
     }
@@ -114,9 +110,6 @@
         padding-left: 12px;
         padding-right: 12px;
       }
-      .heading {
-        flex-wrap: wrap;
-      }
       table {
         min-width: 640px;
         font-size: 12px;
@@ -129,7 +122,7 @@
 </head>
 <body>
   <main class="shell">
-    <div class="heading"><span class="title">산업별 고용 증가비, 2023</span><a class="download" href="data/산업별-고용-증가비,-2023.xlsx" download="산업별-고용-증가비,-2023.xlsx">데이터 다운로드</a></div>
+    <div class="heading"><span class="title">산업별 고용 증가비, 2023</span></div>
     
       <div class="table-wrap">
         <table>
@@ -140,6 +133,7 @@
       </div>
       <div class="notes"><p class="note-label">주:</p><p class="note-item">1) 고용 증가비는 2018년 산업별 종사자 수를 100으로 하였을 때 2023년 산업별 종사자 수임.</p><p class="note-item">2) 2018년 고용 비율은 2018년 기준 전체 종사자의 산업별 고용 비율임.</p><p class="note-item">3) 상용직, 임시일용직, 특수형태근로 및 그 외 종사자를 포함한 1인 이상 사업체 전체 종사자를 대상으로 함(자영업자와 무급가족종사자 제외).</p><p class="note-item">4) 제10차 한국표준산업분류 기준임.</p><p class="note-source">출처: 고용노동부, ｢사업체노동력조사｣.</p></div>
     
+    <div class="toolbar"><a class="download" href="data/산업별-고용-증가비,-2023.xlsx" download="산업별-고용-증가비,-2023.xlsx">데이터 다운로드</a></div>
   </main>
 </body>
 </html>

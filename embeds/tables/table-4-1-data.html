@@ -21,29 +21,25 @@
       background: #fff;
       overflow: hidden;
     }
+    .toolbar {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 10px;
+      padding-left: 4px;
+    }
     .download {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      box-sizing: border-box;
-      min-height: 28px;
-      flex: 0 0 auto;
       border: 1px solid #536B9D;
       color: #293F73;
       background: #fff;
       border-radius: 999px;
       padding: 6px 12px;
       font: 700 12px "Apple SD Gothic Neo", sans-serif;
-      line-height: 1.2;
       text-decoration: none;
-      white-space: nowrap;
     }
     .heading {
       display: flex;
-      justify-content: space-between;
-      gap: 12px;
       align-items: center;
-      margin-bottom: 8px;
+      margin-bottom: 4px;
       font-weight: 700;
       padding-left: 4px;
     }
@@ -114,9 +110,6 @@
         padding-left: 12px;
         padding-right: 12px;
       }
-      .heading {
-        flex-wrap: wrap;
-      }
       table {
         min-width: 1040px;
         font-size: 12px;
@@ -129,7 +122,7 @@
 </head>
 <body>
   <main class="shell">
-    <div class="heading"><span class="title">임금근로자 유형별 일자리 특성, 2015, 2025</span><a class="download" href="data/임금근로자-유형별-일자리-특성,-2015,-2025.xlsx" download="임금근로자-유형별-일자리-특성,-2015,-2025.xlsx">데이터 다운로드</a></div>
+    <div class="heading"><span class="title">임금근로자 유형별 일자리 특성, 2015, 2025</span></div>
     
       <div class="table-wrap">
         <table>
@@ -140,6 +133,7 @@
       </div>
       <div class="notes"><p class="note-label">주:</p><p class="note-item">1) 임금근로자를 대상으로 함.</p><p class="note-item">2) 유노조는 노동조합에 가입한 근로자를 의미함.</p><p class="note-item">3) 대기업은 종사자 300인 이상 사업체 근로자를 의미함.</p><p class="note-item">4) 근속기간은 입사 연월부터 조사 연월까지의 개월 수임.</p><p class="note-source">출처: 국가데이터처, ｢경제활동인구조사 근로형태별 부가조사｣.</p></div>
     
+    <div class="toolbar"><a class="download" href="data/임금근로자-유형별-일자리-특성,-2015,-2025.xlsx" download="임금근로자-유형별-일자리-특성,-2015,-2025.xlsx">데이터 다운로드</a></div>
   </main>
 </body>
 </html>
