@@ -135,5 +135,28 @@
     
     <div class="toolbar"><a class="download" href="data/소득분위별-경상소득-금액,-2024.xlsx" download="소득분위별-경상소득-금액,-2024.xlsx">데이터 다운로드</a></div>
   </main>
+  <script>// Measure content rather than the iframe viewport to avoid height feedback loops.
+if (window.parent !== window) {
+  const root = document.querySelector(".embed-shell, .shell");
+  let lastHeight = 0;
+  const reportHeight = () => {
+    const height = Math.ceil(root.getBoundingClientRect().height);
+    if (height > 0 && height !== lastHeight) {
+      lastHeight = height;
+      window.parent.postMessage({type: "kossda:resize", height}, "*");
+    }
+  };
+  new ResizeObserver(reportHeight).observe(root);
+  window.addEventListener("load", reportHeight);
+  window.addEventListener("message", event => {
+    if (event.source === window.parent && event.data && event.data.type === "kossda:measure") {
+      lastHeight = 0;
+      reportHeight();
+    }
+  });
+  document.fonts.ready.then(reportHeight);
+  reportHeight();
+}
+</script>
 </body>
 </html>
